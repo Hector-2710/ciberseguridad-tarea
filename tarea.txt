@@ -1,0 +1,11 @@
+Generación de SBOMS + Vulnerabilidades
+
+- Primera parte: la actividad consiste en generar SBOMS de todos los repositorios de una organización que contenga software open source. Utilice repositorios activos, es decir, con último commit realizado dentro de un mes. Para procesar el conjunto de datos puede seguir un procedimiento similar al disponible en el tutorial web.
+
+- Segunda parte: la actividad consiste en analizar tanto el código fuente como las dependencias encontradas en la parte 1.
+
+- Tercera parte: Analice cuantitativamente tanto las dependencias como las vulnerabilidades encontradas. Utilice un notebook jupyter donde implemente todo su análisis. Lo relevante en el notebook es que el análisis puede ser reproducido por un tercero.
+
+- Seleccione una organización estratégicamente (no más de 50 repositorios), de manera de hacer viable el análisis en no más de 3 horas.
+
+- Como entrega solo debe dejar link a un repo público de su proyecto.
