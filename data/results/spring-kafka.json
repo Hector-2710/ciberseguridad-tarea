@@ -1,0 +1,5311 @@
+{
+  "artifacts": [
+    {
+      "id": "e32556b8faf5a142",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/verify-staged-artifacts.yml",
+          "accessPath": "/.github/workflows/verify-staged-artifacts.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "2e64754e51b62fc5",
+      "name": "actions/upload-artifact",
+      "version": "v7",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/verify-staged-artifacts.yml",
+          "accessPath": "/.github/workflows/verify-staged-artifacts.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/upload-artifact@v7",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/upload-artifact@v7"
+      }
+    },
+    {
+      "id": "91d97ea0175d4185",
+      "name": "awaitility",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-05/pom.xml",
+          "accessPath": "/samples/sample-05/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.awaitility:awaitility:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:awaitility:awaitility:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.awaitility/awaitility",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.awaitility",
+          "artifactId": "awaitility",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "3037d78a44627329",
+      "name": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/gradle/wrapper/gradle-wrapper.jar",
+          "accessPath": "/gradle/wrapper/gradle-wrapper.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache-2.0",
+          "spdxExpression": "Apache-2.0",
+          "type": "concluded",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/gradle/wrapper/gradle-wrapper.jar",
+              "accessPath": "/gradle/wrapper/gradle-wrapper.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.gradle.wrapper.GradleWrapperMain:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.gradle.wrapper.GradleWrapperMain:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.gradle.wrapper.GradleWrapperMain:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.gradle.wrapper.GradleWrapperMain:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:GradleWrapperMain:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:GradleWrapperMain:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:GradleWrapperMain:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:GradleWrapperMain:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrapper:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrapper:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.gradle.wrapper.GradleWrapperMain/gradle-wrapper",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/gradle/wrapper/gradle-wrapper.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "Gradle Wrapper"
+            },
+            {
+              "key": "SPDX-License-Identifier",
+              "value": "Apache-2.0"
+            },
+            {
+              "key": "Main-Class",
+              "value": "org.gradle.wrapper.GradleWrapperMain"
+            },
+            {
+              "key": "Enable-Native-Access",
+              "value": "ALL-UNNAMED"
+            }
+          ]
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "5fb21a795db76a01b4ab4acb25132f8beee3138d"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2cab706827a68d95",
+      "name": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-07/gradle/wrapper/gradle-wrapper.jar",
+          "accessPath": "/samples/sample-07/gradle/wrapper/gradle-wrapper.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache-2.0",
+          "spdxExpression": "Apache-2.0",
+          "type": "concluded",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/samples/sample-07/gradle/wrapper/gradle-wrapper.jar",
+              "accessPath": "/samples/sample-07/gradle/wrapper/gradle-wrapper.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/gradle-wrapper/gradle-wrapper",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/samples/sample-07/gradle/wrapper/gradle-wrapper.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "Gradle Wrapper"
+            }
+          ]
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "1a5591754096883e87f8d5fdbf57ec2a6a99e724"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ecb7d95cc4fc36db",
+      "name": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-08/gradle/wrapper/gradle-wrapper.jar",
+          "accessPath": "/samples/sample-08/gradle/wrapper/gradle-wrapper.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache-2.0",
+          "spdxExpression": "Apache-2.0",
+          "type": "concluded",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/samples/sample-08/gradle/wrapper/gradle-wrapper.jar",
+              "accessPath": "/samples/sample-08/gradle/wrapper/gradle-wrapper.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/gradle-wrapper/gradle-wrapper",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/samples/sample-08/gradle/wrapper/gradle-wrapper.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "Gradle Wrapper"
+            }
+          ]
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "abf08035a417f807e3d91c559b793ad20f5638ab"
+          }
+        ]
+      }
+    },
+    {
+      "id": "0d3b8d98b4ee7bed",
+      "name": "kafka-clients",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-05/pom.xml",
+          "accessPath": "/samples/sample-05/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:kafka-clients:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:kafka_clients:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.kafka/kafka-clients",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.kafka",
+          "artifactId": "kafka-clients",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "e01162cab934c44d",
+      "name": "kafka-sample-01",
+      "version": "3.2.0-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-01/pom.xml",
+          "accessPath": "/samples/sample-01/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:kafka-sample-01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:kafka_sample_01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample-01:kafka-sample-01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample-01:kafka_sample_01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample_01:kafka-sample-01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample_01:kafka_sample_01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:kafka-sample-01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:kafka_sample_01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample:kafka-sample-01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample:kafka_sample_01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample:kafka-sample-01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample:kafka_sample_01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.example:kafka-sample-01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.example:kafka_sample_01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:example:kafka-sample-01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:example:kafka_sample_01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:kafka-sample-01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:kafka_sample_01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:kafka-sample-01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:kafka_sample_01:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample-01:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample_01:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.example:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:example:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.example/kafka-sample-01@3.2.0-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-parent",
+            "version": "3.2.5"
+          },
+          "groupId": "com.example",
+          "artifactId": "kafka-sample-01",
+          "version": "3.2.0-SNAPSHOT",
+          "name": "kafka-sample-01",
+          "description": "Kafka Sample 1"
+        }
+      }
+    },
+    {
+      "id": "3857935f691523eb",
+      "name": "kafka-sample-02",
+      "version": "3.2.0-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-02/pom.xml",
+          "accessPath": "/samples/sample-02/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:kafka-sample-02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:kafka_sample_02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample-02:kafka-sample-02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample-02:kafka_sample_02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample_02:kafka-sample-02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample_02:kafka_sample_02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:kafka-sample-02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:kafka_sample_02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample:kafka-sample-02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample:kafka_sample_02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample:kafka-sample-02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample:kafka_sample_02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.example:kafka-sample-02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.example:kafka_sample_02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:example:kafka-sample-02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:example:kafka_sample_02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:kafka-sample-02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:kafka_sample_02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:kafka-sample-02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:kafka_sample_02:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample-02:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample_02:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.example:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:example:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.example/kafka-sample-02@3.2.0-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-parent",
+            "version": "3.2.5"
+          },
+          "groupId": "com.example",
+          "artifactId": "kafka-sample-02",
+          "version": "3.2.0-SNAPSHOT",
+          "name": "kafka-sample-02",
+          "description": "Kafka Sample 2"
+        }
+      }
+    },
+    {
+      "id": "0482a1443faf68d7",
+      "name": "kafka-sample-03",
+      "version": "3.2.0-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-03/pom.xml",
+          "accessPath": "/samples/sample-03/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:kafka-sample-03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:kafka_sample_03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample-03:kafka-sample-03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample-03:kafka_sample_03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample_03:kafka-sample-03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample_03:kafka_sample_03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:kafka-sample-03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:kafka_sample_03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample:kafka-sample-03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample:kafka_sample_03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample:kafka-sample-03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample:kafka_sample_03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.example:kafka-sample-03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.example:kafka_sample_03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:example:kafka-sample-03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:example:kafka_sample_03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:kafka-sample-03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:kafka_sample_03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:kafka-sample-03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:kafka_sample_03:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample-03:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample_03:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.example:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:example:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.example/kafka-sample-03@3.2.0-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-parent",
+            "version": "3.2.5"
+          },
+          "groupId": "com.example",
+          "artifactId": "kafka-sample-03",
+          "version": "3.2.0-SNAPSHOT",
+          "name": "kafka-sample-03",
+          "description": "Kafka Sample 3"
+        }
+      }
+    },
+    {
+      "id": "9dade8ccfb73f6cc",
+      "name": "kafka-sample-04",
+      "version": "3.2.0-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-04/pom.xml",
+          "accessPath": "/samples/sample-04/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:kafka-sample-04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:kafka_sample_04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample-04:kafka-sample-04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample-04:kafka_sample_04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample_04:kafka-sample-04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample_04:kafka_sample_04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:kafka-sample-04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:kafka_sample_04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample:kafka-sample-04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample:kafka_sample_04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample:kafka-sample-04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample:kafka_sample_04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.example:kafka-sample-04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.example:kafka_sample_04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:example:kafka-sample-04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:example:kafka_sample_04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:kafka-sample-04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:kafka_sample_04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:kafka-sample-04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:kafka_sample_04:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample-04:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample_04:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.example:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:example:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.example/kafka-sample-04@3.2.0-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-parent",
+            "version": "3.2.5"
+          },
+          "groupId": "com.example",
+          "artifactId": "kafka-sample-04",
+          "version": "3.2.0-SNAPSHOT",
+          "name": "kafka-sample-04",
+          "description": "Kafka Sample 4"
+        }
+      }
+    },
+    {
+      "id": "ad17e0f5eda4cec1",
+      "name": "kafka-sample-05",
+      "version": "3.2.0-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-05/pom.xml",
+          "accessPath": "/samples/sample-05/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:kafka-sample-05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:kafka_sample_05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample-05:kafka-sample-05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample-05:kafka_sample_05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample_05:kafka-sample-05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample_05:kafka_sample_05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:kafka-sample-05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:kafka_sample_05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample:kafka-sample-05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample:kafka_sample_05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample:kafka-sample-05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample:kafka_sample_05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.example:kafka-sample-05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.example:kafka_sample_05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:example:kafka-sample-05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:example:kafka_sample_05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:kafka-sample-05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:kafka_sample_05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:kafka-sample-05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:kafka_sample_05:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample-05:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample_05:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.example:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:example:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.example/kafka-sample-05@3.2.0-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-parent",
+            "version": "3.2.5"
+          },
+          "groupId": "com.example",
+          "artifactId": "kafka-sample-05",
+          "version": "3.2.0-SNAPSHOT",
+          "name": "kafka-sample-05",
+          "description": "Kafka Sample 5"
+        }
+      }
+    },
+    {
+      "id": "1891075eccafb74f",
+      "name": "kafka-sample-06",
+      "version": "3.2.0-SNAPSHOT",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-06/pom.xml",
+          "accessPath": "/samples/sample-06/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:kafka-sample-06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:kafka_sample_06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample-06:kafka-sample-06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample-06:kafka_sample_06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample_06:kafka-sample-06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample_06:kafka_sample_06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:kafka-sample-06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:kafka_sample_06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample:kafka-sample-06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample:kafka_sample_06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample:kafka-sample-06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample:kafka_sample_06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.example:kafka-sample-06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.example:kafka_sample_06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:example:kafka-sample-06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:example:kafka_sample_06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:kafka-sample-06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:kafka_sample_06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:kafka-sample-06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:kafka_sample_06:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample-06:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample_06:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka-sample:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka_sample:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:com.example:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:example:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:boot:3.2.0-SNAPSHOT:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/com.example/kafka-sample-06@3.2.0-SNAPSHOT",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProject": {
+          "path": "",
+          "parent": {
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-parent",
+            "version": "3.2.5"
+          },
+          "groupId": "com.example",
+          "artifactId": "kafka-sample-06",
+          "version": "3.2.0-SNAPSHOT",
+          "name": "kafka-sample-06",
+          "description": "Kafka Sample 6"
+        }
+      }
+    },
+    {
+      "id": "477dafa79263b30a",
+      "name": "kafka-streams",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-06/pom.xml",
+          "accessPath": "/samples/sample-06/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:kafka-streams:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:kafka_streams:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.kafka/kafka-streams",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.kafka",
+          "artifactId": "kafka-streams",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "eae1572698d554dc",
+      "name": "kafka-streams-test-utils",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-06/pom.xml",
+          "accessPath": "/samples/sample-06/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:kafka-streams-test-utils:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:kafka_streams_test_utils:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.kafka/kafka-streams-test-utils",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.kafka",
+          "artifactId": "kafka-streams-test-utils",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "8f9a4ef6f833e88d",
+      "name": "kafka_2.13",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-05/pom.xml",
+          "accessPath": "/samples/sample-05/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:kafka-2.13:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:kafka_2.13:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.kafka/kafka_2.13",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.apache.kafka",
+          "artifactId": "kafka_2.13",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "56fa4649a7ac3848",
+      "name": "maven-wrapper",
+      "version": "0.4.2",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-01/.mvn/wrapper/maven-wrapper.jar",
+          "accessPath": "/samples/sample-01/.mvn/wrapper/maven-wrapper.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:maven-wrapper:maven-wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven-wrapper:maven_wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven_wrapper:maven-wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven_wrapper:maven_wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.takari:maven-wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.takari:maven_wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari:maven-wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari:maven_wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven-wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven_wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.takari/maven-wrapper@0.4.2",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/samples/sample-01/.mvn/wrapper/maven-wrapper.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "maven-wrapper"
+            },
+            {
+              "key": "Implementation-Version",
+              "value": "0.4.2"
+            },
+            {
+              "key": "Archiver-Version",
+              "value": "Provisio Archiver"
+            },
+            {
+              "key": "Built-By",
+              "value": "manfred"
+            },
+            {
+              "key": "Specification-Title",
+              "value": "maven-wrapper"
+            },
+            {
+              "key": "Implementation-Vendor-Id",
+              "value": "io.takari"
+            },
+            {
+              "key": "Created-By",
+              "value": "Takari Inc."
+            },
+            {
+              "key": "Build-Jdk",
+              "value": "1.8.0_171"
+            },
+            {
+              "key": "Specification-Version",
+              "value": "0.4.2"
+            }
+          ]
+        },
+        "pomProperties": {
+          "path": "META-INF/maven/io.takari/maven-wrapper/pom.properties",
+          "name": "",
+          "groupId": "io.takari",
+          "artifactId": "maven-wrapper",
+          "version": "0.4.2"
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "ca0763264dc2e879c0ec8f3460f35d017fd8f61c"
+          }
+        ]
+      }
+    },
+    {
+      "id": "79aa3c4cc992ff76",
+      "name": "maven-wrapper",
+      "version": "0.4.2",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-02/.mvn/wrapper/maven-wrapper.jar",
+          "accessPath": "/samples/sample-02/.mvn/wrapper/maven-wrapper.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:maven-wrapper:maven-wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven-wrapper:maven_wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven_wrapper:maven-wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven_wrapper:maven_wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.takari:maven-wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.takari:maven_wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari:maven-wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari:maven_wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven-wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven_wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.takari/maven-wrapper@0.4.2",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/samples/sample-02/.mvn/wrapper/maven-wrapper.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "maven-wrapper"
+            },
+            {
+              "key": "Implementation-Version",
+              "value": "0.4.2"
+            },
+            {
+              "key": "Archiver-Version",
+              "value": "Provisio Archiver"
+            },
+            {
+              "key": "Built-By",
+              "value": "manfred"
+            },
+            {
+              "key": "Specification-Title",
+              "value": "maven-wrapper"
+            },
+            {
+              "key": "Implementation-Vendor-Id",
+              "value": "io.takari"
+            },
+            {
+              "key": "Created-By",
+              "value": "Takari Inc."
+            },
+            {
+              "key": "Build-Jdk",
+              "value": "1.8.0_171"
+            },
+            {
+              "key": "Specification-Version",
+              "value": "0.4.2"
+            }
+          ]
+        },
+        "pomProperties": {
+          "path": "META-INF/maven/io.takari/maven-wrapper/pom.properties",
+          "name": "",
+          "groupId": "io.takari",
+          "artifactId": "maven-wrapper",
+          "version": "0.4.2"
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "ca0763264dc2e879c0ec8f3460f35d017fd8f61c"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fe5c64c54e64cabe",
+      "name": "maven-wrapper",
+      "version": "0.4.2",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-03/.mvn/wrapper/maven-wrapper.jar",
+          "accessPath": "/samples/sample-03/.mvn/wrapper/maven-wrapper.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:maven-wrapper:maven-wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven-wrapper:maven_wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven_wrapper:maven-wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven_wrapper:maven_wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.takari:maven-wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:io.takari:maven_wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari:maven-wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:takari:maven_wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven-wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:maven:maven_wrapper:0.4.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/io.takari/maven-wrapper@0.4.2",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/samples/sample-03/.mvn/wrapper/maven-wrapper.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "maven-wrapper"
+            },
+            {
+              "key": "Implementation-Version",
+              "value": "0.4.2"
+            },
+            {
+              "key": "Archiver-Version",
+              "value": "Provisio Archiver"
+            },
+            {
+              "key": "Built-By",
+              "value": "manfred"
+            },
+            {
+              "key": "Specification-Title",
+              "value": "maven-wrapper"
+            },
+            {
+              "key": "Implementation-Vendor-Id",
+              "value": "io.takari"
+            },
+            {
+              "key": "Created-By",
+              "value": "Takari Inc."
+            },
+            {
+              "key": "Build-Jdk",
+              "value": "1.8.0_171"
+            },
+            {
+              "key": "Specification-Version",
+              "value": "0.4.2"
+            }
+          ]
+        },
+        "pomProperties": {
+          "path": "META-INF/maven/io.takari/maven-wrapper/pom.properties",
+          "name": "",
+          "groupId": "io.takari",
+          "artifactId": "maven-wrapper",
+          "version": "0.4.2"
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "ca0763264dc2e879c0ec8f3460f35d017fd8f61c"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3c4b67c78181e24a",
+      "name": "maven-wrapper",
+      "version": "3.1.0",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-05/.mvn/wrapper/maven-wrapper.jar",
+          "accessPath": "/samples/sample-05/.mvn/wrapper/maven-wrapper.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache-2.0",
+          "spdxExpression": "Apache-2.0",
+          "type": "concluded",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/samples/sample-05/.mvn/wrapper/maven-wrapper.jar",
+              "accessPath": "/samples/sample-05/.mvn/wrapper/maven-wrapper.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:apache:maven-wrapper:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:maven_wrapper:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:wrapper:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:apache:maven:3.1.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.apache.maven.wrapper/maven-wrapper@3.1.0",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/samples/sample-05/.mvn/wrapper/maven-wrapper.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "Maven Wrapper Jar"
+            },
+            {
+              "key": "Implementation-Version",
+              "value": "3.1.0"
+            },
+            {
+              "key": "Specification-Vendor",
+              "value": "The Apache Software Foundation"
+            },
+            {
+              "key": "Specification-Title",
+              "value": "Maven Wrapper Jar"
+            },
+            {
+              "key": "Build-Jdk-Spec",
+              "value": "1.8"
+            },
+            {
+              "key": "Created-By",
+              "value": "Maven Jar Plugin 3.2.0"
+            },
+            {
+              "key": "Specification-Version",
+              "value": "3.1"
+            },
+            {
+              "key": "Implementation-Vendor",
+              "value": "The Apache Software Foundation"
+            }
+          ]
+        },
+        "pomProperties": {
+          "path": "META-INF/maven/org.apache.maven.wrapper/maven-wrapper/pom.properties",
+          "name": "",
+          "groupId": "org.apache.maven.wrapper",
+          "artifactId": "maven-wrapper",
+          "version": "3.1.0"
+        },
+        "pomProject": {
+          "path": "META-INF/maven/org.apache.maven.wrapper/maven-wrapper/pom.xml",
+          "parent": {
+            "groupId": "org.apache.maven.wrapper",
+            "artifactId": "maven-wrapper-parent",
+            "version": "3.1.0"
+          },
+          "groupId": "org.apache.maven.wrapper",
+          "artifactId": "maven-wrapper",
+          "version": "3.1.0",
+          "name": "Maven Wrapper Jar",
+          "description": "Maven Wrapper Jar download, installs and launches installed target Maven distribution as part of Maven Wrapper scripts run."
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "32f70e9f2cd92fd7629aba8214d1c9ae58a1e2fd"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1b5d788c47a8f791",
+      "name": "spring-boot-starter",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-05/pom.xml",
+          "accessPath": "/samples/sample-05/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:spring-boot-starter:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:spring_boot_starter:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-boot-starter:spring-boot-starter:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-boot-starter:spring_boot_starter:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_boot_starter:spring-boot-starter:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_boot_starter:spring_boot_starter:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:spring-boot-starter:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:spring_boot_starter:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-boot:spring-boot-starter:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-boot:spring_boot_starter:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_boot:spring-boot-starter:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_boot:spring_boot_starter:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-boot-starter:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_boot_starter:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:spring-boot-starter:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:spring_boot_starter:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "01fee963131fb156",
+      "name": "spring-boot-starter-test",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-01/pom.xml",
+          "accessPath": "/samples/sample-01/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:spring-boot-starter-test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:spring_boot_starter_test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-boot-starter-test:spring-boot-starter-test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-boot-starter-test:spring_boot_starter_test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_boot_starter_test:spring-boot-starter-test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_boot_starter_test:spring_boot_starter_test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-boot-starter:spring-boot-starter-test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-boot-starter:spring_boot_starter_test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_boot_starter:spring-boot-starter-test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_boot_starter:spring_boot_starter_test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:spring-boot-starter-test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:spring_boot_starter_test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-boot:spring-boot-starter-test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-boot:spring_boot_starter_test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_boot:spring-boot-starter-test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_boot:spring_boot_starter_test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-boot-starter-test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_boot_starter_test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:spring-boot-starter-test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:spring_boot_starter_test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-test",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-test",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    },
+    {
+      "id": "d52cd52161616a04",
+      "name": "spring-boot-starter-web",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-01/pom.xml",
+          "accessPath": "/samples/sample-01/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:spring-boot-starter-web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.springframework.boot:spring_boot_starter_web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-boot-starter-web:spring-boot-starter-web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-boot-starter-web:spring_boot_starter_web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_boot_starter_web:spring-boot-starter-web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_boot_starter_web:spring_boot_starter_web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-boot-starter:spring-boot-starter-web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-boot-starter:spring_boot_starter_web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_boot_starter:spring-boot-starter-web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_boot_starter:spring_boot_starter_web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:spring-boot-starter-web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:spring_boot_starter_web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-boot:spring-boot-starter-web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-boot:spring_boot_starter_web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_boot:spring-boot-starter-web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_boot:spring_boot_starter_web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-boot-starter-web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_boot_starter_web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:spring-boot-starter-web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:boot:spring_boot_starter_web:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.boot/spring-boot-starter-web",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-web",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "b3122d00745b84e0",
+      "name": "spring-io/backport-bot",
+      "version": "v0.0.2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/backport-issue.yml",
+          "accessPath": "/.github/workflows/backport-issue.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/backport-bot:spring-io\\/backport-bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/backport-bot:spring_io\\/backport_bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/backport_bot:spring-io\\/backport-bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/backport_bot:spring_io\\/backport_bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/backport:spring-io\\/backport-bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/backport:spring_io\\/backport_bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/backport:spring-io\\/backport-bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/backport:spring_io\\/backport_bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/backport-bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/backport_bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/backport-bot@v0.0.2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/backport-bot@v0.0.2"
+      }
+    },
+    {
+      "id": "4c99b90f8bc8f1b1",
+      "name": "spring-io/spring-github-workflows/.github/workflows/spring-announce-milestone-planning.yml",
+      "version": "v7",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/announce-milestone-planning.yml",
+          "accessPath": "/.github/workflows/announce-milestone-planning.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-github-workflows@v7#.github/workflows/spring-announce-milestone-planning.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-github-workflows/.github/workflows/spring-announce-milestone-planning.yml@v7"
+      }
+    },
+    {
+      "id": "653a2e9abf7346a5",
+      "name": "spring-io/spring-github-workflows/.github/workflows/spring-artifactory-gradle-release.yml",
+      "version": "v7",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/release.yml",
+          "accessPath": "/.github/workflows/release.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-github-workflows@v7#.github/workflows/spring-artifactory-gradle-release.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-github-workflows/.github/workflows/spring-artifactory-gradle-release.yml@v7"
+      }
+    },
+    {
+      "id": "e0db798acbabfaf2",
+      "name": "spring-io/spring-github-workflows/.github/workflows/spring-artifactory-gradle-snapshot.yml",
+      "version": "v7",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci-snapshot.yml",
+          "accessPath": "/.github/workflows/ci-snapshot.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-snapshot.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-snapshot.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_snapshot.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_snapshot.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_snapshot.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-github-workflows@v7#.github/workflows/spring-artifactory-gradle-snapshot.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-github-workflows/.github/workflows/spring-artifactory-gradle-snapshot.yml@v7"
+      }
+    },
+    {
+      "id": "df99ef21b12858a4",
+      "name": "spring-io/spring-github-workflows/.github/workflows/spring-cherry-pick.yml",
+      "version": "v7",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/auto-cherry-pick.yml",
+          "accessPath": "/.github/workflows/auto-cherry-pick.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-github-workflows@v7#.github/workflows/spring-cherry-pick.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-github-workflows/.github/workflows/spring-cherry-pick.yml@v7"
+      }
+    },
+    {
+      "id": "17aca9f02e2d6a8d",
+      "name": "spring-io/spring-github-workflows/.github/workflows/spring-dispatch-docs-build.yml",
+      "version": "v7",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/deploy-docs.yml",
+          "accessPath": "/.github/workflows/deploy-docs.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-github-workflows@v7#.github/workflows/spring-dispatch-docs-build.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-github-workflows/.github/workflows/spring-dispatch-docs-build.yml@v7"
+      }
+    },
+    {
+      "id": "f37e602ad7eecd57",
+      "name": "spring-io/spring-github-workflows/.github/workflows/spring-finalize-release.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/manual-finalize-release.yml",
+          "accessPath": "/.github/workflows/manual-finalize-release.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-finalize-release.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-finalize-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-finalize-release.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_finalize_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_finalize_release.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-finalize-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_finalize_release.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_finalize_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-finalize:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-finalize-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-finalize:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_finalize_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_finalize:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-finalize-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_finalize:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_finalize_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-finalize-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_finalize_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-finalize-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_finalize_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-finalize-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_finalize_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-finalize-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_finalize_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-finalize-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_finalize_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-finalize-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_finalize_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-finalize-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_finalize_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-github-workflows@main#.github/workflows/spring-finalize-release.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-github-workflows/.github/workflows/spring-finalize-release.yml@main"
+      }
+    },
+    {
+      "id": "a8163506859efa6c",
+      "name": "spring-io/spring-github-workflows/.github/workflows/spring-gradle-pull-request-build.yml",
+      "version": "v7",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/pr-build.yml",
+          "accessPath": "/.github/workflows/pr-build.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-github-workflows@v7#.github/workflows/spring-gradle-pull-request-build.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-github-workflows/.github/workflows/spring-gradle-pull-request-build.yml@v7"
+      }
+    },
+    {
+      "id": "1c4279b671d719ed",
+      "name": "spring-io/spring-github-workflows/.github/workflows/spring-merge-dependabot-pr.yml",
+      "version": "v7",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/merge-dependabot-pr.yml",
+          "accessPath": "/.github/workflows/merge-dependabot-pr.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-github-workflows@v7#.github/workflows/spring-merge-dependabot-pr.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-github-workflows/.github/workflows/spring-merge-dependabot-pr.yml@v7"
+      }
+    },
+    {
+      "id": "e15479a5d786860b",
+      "name": "spring-io/spring-github-workflows/.github/workflows/spring-trigger-dependabot-updates.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/trigger-dependabot-updates.yml",
+          "accessPath": "/.github/workflows/trigger-dependabot-updates.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-github-workflows@main#.github/workflows/spring-trigger-dependabot-updates.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-github-workflows/.github/workflows/spring-trigger-dependabot-updates.yml@main"
+      }
+    },
+    {
+      "id": "628a90aec9b1a25c",
+      "name": "spring-io/spring-gradle-build-action",
+      "version": "v2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/verify-staged-artifacts.yml",
+          "accessPath": "/.github/workflows/verify-staged-artifacts.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-gradle-build-action@v2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-gradle-build-action@v2"
+      }
+    },
+    {
+      "id": "05085cae2593d413",
+      "name": "spring-kafka",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-01/pom.xml",
+          "accessPath": "/samples/sample-01/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.springframework.kafka:spring-kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.springframework.kafka:spring_kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.springframework.kafka:kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:spring-kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:spring_kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-kafka:spring-kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-kafka:spring_kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_kafka:spring-kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_kafka:spring_kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:spring-kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:spring_kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-kafka:kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_kafka:kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:kafka:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.kafka/spring-kafka",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.springframework.kafka",
+          "artifactId": "spring-kafka",
+          "version": ""
+        }
+      }
+    },
+    {
+      "id": "0f71d5b1f7104aed",
+      "name": "spring-kafka-test",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-pom-cataloger",
+      "locations": [
+        {
+          "path": "/samples/sample-05/pom.xml",
+          "accessPath": "/samples/sample-05/pom.xml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.springframework.kafka:spring-kafka-test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.springframework.kafka:spring_kafka_test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-kafka-test:spring-kafka-test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-kafka-test:spring_kafka_test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_kafka_test:spring-kafka-test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_kafka_test:spring_kafka_test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:spring-kafka-test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:springframework:spring_kafka_test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-kafka:spring-kafka-test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-kafka:spring_kafka_test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_kafka:spring-kafka-test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_kafka:spring_kafka_test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-kafka-test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_kafka_test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:spring-kafka-test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:kafka:spring_kafka_test:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.springframework.kafka/spring-kafka-test",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "",
+        "pomProperties": {
+          "path": "",
+          "name": "",
+          "groupId": "org.springframework.kafka",
+          "artifactId": "spring-kafka-test",
+          "version": "",
+          "scope": "test"
+        }
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "01fee963131fb156",
+      "child": "0482a1443faf68d7",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "01fee963131fb156",
+      "child": "0a9dd4bf45725e02",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "01fee963131fb156",
+      "child": "1891075eccafb74f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "01fee963131fb156",
+      "child": "3857935f691523eb",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "01fee963131fb156",
+      "child": "9dade8ccfb73f6cc",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "01fee963131fb156",
+      "child": "ad17e0f5eda4cec1",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "01fee963131fb156",
+      "child": "e01162cab934c44d",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0482a1443faf68d7",
+      "child": "52dbe57f0715570c",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "05085cae2593d413",
+      "child": "0482a1443faf68d7",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "05085cae2593d413",
+      "child": "0a9dd4bf45725e02",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "05085cae2593d413",
+      "child": "1891075eccafb74f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "05085cae2593d413",
+      "child": "3857935f691523eb",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "05085cae2593d413",
+      "child": "9dade8ccfb73f6cc",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "05085cae2593d413",
+      "child": "ad17e0f5eda4cec1",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "05085cae2593d413",
+      "child": "e01162cab934c44d",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0d3b8d98b4ee7bed",
+      "child": "1891075eccafb74f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0d3b8d98b4ee7bed",
+      "child": "ad17e0f5eda4cec1",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0d3b8d98b4ee7bed",
+      "child": "e966f385f2225574",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "0f71d5b1f7104aed",
+      "child": "ad17e0f5eda4cec1",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "0f71d5b1f7104aed",
+      "child": "e966f385f2225574",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "17aca9f02e2d6a8d",
+      "child": "e6cfa767b34eb264",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1891075eccafb74f",
+      "child": "846220a04a3fd860",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1b5d788c47a8f791",
+      "child": "ad17e0f5eda4cec1",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "1b5d788c47a8f791",
+      "child": "e966f385f2225574",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1c4279b671d719ed",
+      "child": "597b16c95046cd80",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2cab706827a68d95",
+      "child": "c31626539958734b",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2e64754e51b62fc5",
+      "child": "9513fa0d13361a88",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "3037d78a44627329",
+      "child": "803860b7b0aaa5b6",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "3857935f691523eb",
+      "child": "d916553364fe71eb",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "3c4b67c78181e24a",
+      "child": "d9aacae3ab3695fa",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "477dafa79263b30a",
+      "child": "1891075eccafb74f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "477dafa79263b30a",
+      "child": "846220a04a3fd860",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "4c99b90f8bc8f1b1",
+      "child": "30d19713afa28845",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "56fa4649a7ac3848",
+      "child": "51aaff1a5f9a4786",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "01fee963131fb156",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "0482a1443faf68d7",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "05085cae2593d413",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "0d3b8d98b4ee7bed",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "0f71d5b1f7104aed",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "17aca9f02e2d6a8d",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "1891075eccafb74f",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "1b5d788c47a8f791",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "1c4279b671d719ed",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "2cab706827a68d95",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "2e64754e51b62fc5",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "3037d78a44627329",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "3857935f691523eb",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "3c4b67c78181e24a",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "477dafa79263b30a",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "4c99b90f8bc8f1b1",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "56fa4649a7ac3848",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "628a90aec9b1a25c",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "653a2e9abf7346a5",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "79aa3c4cc992ff76",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "8f9a4ef6f833e88d",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "91d97ea0175d4185",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "9dade8ccfb73f6cc",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "a8163506859efa6c",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "ad17e0f5eda4cec1",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "b3122d00745b84e0",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "d52cd52161616a04",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "df99ef21b12858a4",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "e01162cab934c44d",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "e0db798acbabfaf2",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "e15479a5d786860b",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "e32556b8faf5a142",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "eae1572698d554dc",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "ecb7d95cc4fc36db",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "f37e602ad7eecd57",
+      "type": "contains"
+    },
+    {
+      "parent": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+      "child": "fe5c64c54e64cabe",
+      "type": "contains"
+    },
+    {
+      "parent": "628a90aec9b1a25c",
+      "child": "9513fa0d13361a88",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "653a2e9abf7346a5",
+      "child": "cc210d8a1a5f5704",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "79aa3c4cc992ff76",
+      "child": "0753382b85e19655",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "8f9a4ef6f833e88d",
+      "child": "ad17e0f5eda4cec1",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "8f9a4ef6f833e88d",
+      "child": "e966f385f2225574",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "91d97ea0175d4185",
+      "child": "1891075eccafb74f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "91d97ea0175d4185",
+      "child": "ad17e0f5eda4cec1",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "91d97ea0175d4185",
+      "child": "e966f385f2225574",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9dade8ccfb73f6cc",
+      "child": "4bd115bcbf37daa3",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a8163506859efa6c",
+      "child": "4c93f5fdf2d3efcd",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ad17e0f5eda4cec1",
+      "child": "e966f385f2225574",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b3122d00745b84e0",
+      "child": "23641bbb63ed813f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d52cd52161616a04",
+      "child": "0482a1443faf68d7",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d52cd52161616a04",
+      "child": "0a9dd4bf45725e02",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d52cd52161616a04",
+      "child": "1891075eccafb74f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d52cd52161616a04",
+      "child": "3857935f691523eb",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d52cd52161616a04",
+      "child": "9dade8ccfb73f6cc",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "d52cd52161616a04",
+      "child": "e01162cab934c44d",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "df99ef21b12858a4",
+      "child": "264d1f99c91cd9ce",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e01162cab934c44d",
+      "child": "0a9dd4bf45725e02",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e0db798acbabfaf2",
+      "child": "ea2541a9c243574e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e15479a5d786860b",
+      "child": "adf28bf82c9f7912",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e32556b8faf5a142",
+      "child": "9513fa0d13361a88",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "eae1572698d554dc",
+      "child": "1891075eccafb74f",
+      "type": "dependency-of"
+    },
+    {
+      "parent": "eae1572698d554dc",
+      "child": "846220a04a3fd860",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ecb7d95cc4fc36db",
+      "child": "122231a74fce8bb5",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "f37e602ad7eecd57",
+      "child": "6ff175286af55be8",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "fe5c64c54e64cabe",
+      "child": "b974be3ae1d3f4fd",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "30d19713afa28845",
+      "location": {
+        "path": "/.github/workflows/announce-milestone-planning.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 333
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "1b07ae78163c79a0b43582a0dfe58ae590cab647"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "3b8e7f506a863e4559e75811ed3d06b821cc5ef4b35bb7bf282d355d5a41491c"
+        }
+      ]
+    },
+    {
+      "id": "264d1f99c91cd9ce",
+      "location": {
+        "path": "/.github/workflows/auto-cherry-pick.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 272
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "6d7b7bb8eab04caf4789747786e65007aa6b934a"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "bb9fe283e224630c8e53d7722034bab0743de5ccabb1a42ae5e004e241c81ae7"
+        }
+      ]
+    },
+    {
+      "id": "23641bbb63ed813f",
+      "location": {
+        "path": "/.github/workflows/backport-issue.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 354
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "f00c935f305e0571e8e13c80341ca250a704a372"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "d82dacf13ca5775e81c62807e1de79269cd7b784d0f9b64a5ed3997febafa9c7"
+        }
+      ]
+    },
+    {
+      "id": "ea2541a9c243574e",
+      "location": {
+        "path": "/.github/workflows/ci-snapshot.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 647
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "419de7bfc21a890fe743cd37f4ce8d993f848c35"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "af656227365139cbf7bc04d0bbab750a8d39e42ef66eab0e6510e42788a2b06e"
+        }
+      ]
+    },
+    {
+      "id": "e6cfa767b34eb264",
+      "location": {
+        "path": "/.github/workflows/deploy-docs.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 327
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "357d642c8d5f17247b9d8328aab4ab97c6f4181a"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "6bf7c545def2b827dbf7297431f021f576e7500af9bda5c9b5700002a2f86c6b"
+        }
+      ]
+    },
+    {
+      "id": "6ff175286af55be8",
+      "location": {
+        "path": "/.github/workflows/manual-finalize-release.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 605
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "2fd3f6621854deb4c5112262ebdc557a21537e46"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "7abb631b251da9543483bf3f2e49f7df62a0eb8c22288ca5fc074cdd7e18e0ea"
+        }
+      ]
+    },
+    {
+      "id": "597b16c95046cd80",
+      "location": {
+        "path": "/.github/workflows/merge-dependabot-pr.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 375
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "3761021c9bb64e42432c2a710cbe2df3596f2ba1"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "81d475cb4be327f79b21d85d4148037b464fb3ba92e9bd6c1b5b4431b91b4640"
+        }
+      ]
+    },
+    {
+      "id": "4c93f5fdf2d3efcd",
+      "location": {
+        "path": "/.github/workflows/pr-build.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 218
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "68ed90ce7fc1dbe858f5c66ee7bd1c182d2f1e37"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "fb63a60830cfaab0dbb9d998c79605aaa25e0851c5dd67ec69c2ea5c9b7e93a5"
+        }
+      ]
+    },
+    {
+      "id": "cc210d8a1a5f5704",
+      "location": {
+        "path": "/.github/workflows/release.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 1026
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "b7584a8371fbed2e0ea00f24f4a61aeec24dc99d"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "f538bd2e0edad9e42f4ebeff36d806cb801f4675abef1a684edca9cc132980ab"
+        }
+      ]
+    },
+    {
+      "id": "adf28bf82c9f7912",
+      "location": {
+        "path": "/.github/workflows/trigger-dependabot-updates.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 271
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "22507ee4d43908afa2d336561a9b6be34e7aebe7"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "5c51773d63be55384c80ba7511e93d3cab09b14e4656787cee53a0d7b693a62a"
+        }
+      ]
+    },
+    {
+      "id": "9513fa0d13361a88",
+      "location": {
+        "path": "/.github/workflows/verify-staged-artifacts.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 1798
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "61f4a1fec2fc168b8b40600a84e4935732942ece"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "912013b03c21022a9962747e46ce60c532365650857a5c81db1d7e3b5639888b"
+        }
+      ]
+    },
+    {
+      "id": "803860b7b0aaa5b6",
+      "location": {
+        "path": "/gradle/wrapper/gradle-wrapper.jar"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "application/zip",
+        "size": 48966
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "5fb21a795db76a01b4ab4acb25132f8beee3138d"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "55243ef57851f12b070ad14f7f5bb8302daceeebc5bce5ece5fa6edb23e1145c"
+        }
+      ]
+    },
+    {
+      "id": "51aaff1a5f9a4786",
+      "location": {
+        "path": "/samples/sample-01/.mvn/wrapper/maven-wrapper.jar"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "application/java-archive",
+        "size": 48337
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "ca0763264dc2e879c0ec8f3460f35d017fd8f61c"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "1dfe794c50f17f7808b1ed3cde3c009ba9a1b56aeb5c54e1dd3c3b1a93feefe7"
+        }
+      ]
+    },
+    {
+      "id": "0a9dd4bf45725e02",
+      "location": {
+        "path": "/samples/sample-01/pom.xml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 1535
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "bfbde27bc39117624136fb8cbcc8c209a75e98dc"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "ad326c12f6050343a96174b0d1d97742ce2fb0b281246439a9eb198870677105"
+        }
+      ]
+    },
+    {
+      "id": "0753382b85e19655",
+      "location": {
+        "path": "/samples/sample-02/.mvn/wrapper/maven-wrapper.jar"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "application/java-archive",
+        "size": 48337
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "ca0763264dc2e879c0ec8f3460f35d017fd8f61c"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "1dfe794c50f17f7808b1ed3cde3c009ba9a1b56aeb5c54e1dd3c3b1a93feefe7"
+        }
+      ]
+    },
+    {
+      "id": "d916553364fe71eb",
+      "location": {
+        "path": "/samples/sample-02/pom.xml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 1535
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "43129b9a586618b24091d2a6903a27ca6e76d4c8"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "e8f406f50bdf5b3ed747309f7d5bc1ba7933e2f98a61bfa5eecd1ad103f2504a"
+        }
+      ]
+    },
+    {
+      "id": "b974be3ae1d3f4fd",
+      "location": {
+        "path": "/samples/sample-03/.mvn/wrapper/maven-wrapper.jar"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "application/java-archive",
+        "size": 48337
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "ca0763264dc2e879c0ec8f3460f35d017fd8f61c"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "1dfe794c50f17f7808b1ed3cde3c009ba9a1b56aeb5c54e1dd3c3b1a93feefe7"
+        }
+      ]
+    },
+    {
+      "id": "52dbe57f0715570c",
+      "location": {
+        "path": "/samples/sample-03/pom.xml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 1535
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "bb300ac041318e8782f00e83c77adc4fe3a9cc20"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "e32aa03b92e2a5a93aaa85a92a5f69c46e5db5706403682c8aa0ca589a810aeb"
+        }
+      ]
+    },
+    {
+      "id": "4bd115bcbf37daa3",
+      "location": {
+        "path": "/samples/sample-04/pom.xml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 1535
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "9dc7ffcc8c43bd9946f8cc8f98c2aba2d37000b2"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "dd7afaccd499718e7ea9a7f77f8b4305b82d8b5e8c8bebc7a0ca6efe955810ab"
+        }
+      ]
+    },
+    {
+      "id": "d9aacae3ab3695fa",
+      "location": {
+        "path": "/samples/sample-05/.mvn/wrapper/maven-wrapper.jar"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "application/java-archive",
+        "size": 58727
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "32f70e9f2cd92fd7629aba8214d1c9ae58a1e2fd"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "46b0acdfe3da08b3f40d25bd135858b6014ee62b92883768995c946a3b446bd6"
+        }
+      ]
+    },
+    {
+      "id": "e966f385f2225574",
+      "location": {
+        "path": "/samples/sample-05/pom.xml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 3385
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "069cd5640ff7fc3d00c0caac837a5ee38c9af20d"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "dabda547feace8cf0cd42626f707305f911a5903c23bf5f55b6821c2d3e24880"
+        }
+      ]
+    },
+    {
+      "id": "846220a04a3fd860",
+      "location": {
+        "path": "/samples/sample-06/pom.xml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/xml",
+        "size": 3396
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "37e5c37bf4f8bd8131cd0bc29990dc4a8af30f74"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "c6e1b11724f6c465816474960089ef4485b8668844fffccf1d2ed3fc6aa287b5"
+        }
+      ]
+    },
+    {
+      "id": "c31626539958734b",
+      "location": {
+        "path": "/samples/sample-07/gradle/wrapper/gradle-wrapper.jar"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "application/zip",
+        "size": 43453
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "1a5591754096883e87f8d5fdbf57ec2a6a99e724"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "cb0da6751c2b753a16ac168bb354870ebb1e162e9083f116729cec9c781156b8"
+        }
+      ]
+    },
+    {
+      "id": "122231a74fce8bb5",
+      "location": {
+        "path": "/samples/sample-08/gradle/wrapper/gradle-wrapper.jar"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "application/zip",
+        "size": 43583
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "abf08035a417f807e3d91c559b793ad20f5638ab"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "2db75c40782f5e8ba1fc278a5574bab070adccb2d21ca5a6e5ed840888448046"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "id": "5dd4c594b069f3188bf87a462e005ba636446174451a359f2fa0a35ba86a55e1",
+    "name": "/home/hector/ciberseguridad_2026/data/repos/spring-kafka",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/home/hector/ciberseguridad_2026/data/repos/spring-kafka"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.42.4",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "conda-meta-cataloger",
+          "dart-pubspec-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "deb-archive-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dotnet-packages-lock-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "gguf-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "opam-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-lock-cataloger",
+          "php-interpreter-cataloger",
+          "php-pear-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "r-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "snap-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "terraform-lock-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "valkey-binary",
+          "nodejs-binary",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "qt-qtbase-lib",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "istio-binary",
+          "istio-binary",
+          "grafana-binary",
+          "grafana-binary",
+          "envoy-binary",
+          "mongodb-binary",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "exclude-project-references": true,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/home/hector/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false,
+          "use-packages-lib": true
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/hector/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.3",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.3.json"
+  }
+}

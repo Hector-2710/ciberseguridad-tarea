@@ -1,0 +1,96 @@
+[submodule "data/repos/spring-amqp"]
+	path = data/repos/spring-amqp
+	url = https://github.com/spring-projects/spring-amqp.git
+[submodule "data/repos/spring-ldap"]
+	path = data/repos/spring-ldap
+	url = https://github.com/spring-projects/spring-ldap.git
+[submodule "data/repos/spring-shell"]
+	path = data/repos/spring-shell
+	url = https://github.com/spring-projects/spring-shell.git
+[submodule "data/repos/spring-ai"]
+	path = data/repos/spring-ai
+	url = https://github.com/spring-projects/spring-ai.git
+[submodule "data/repos/spring-boot"]
+	path = data/repos/spring-boot
+	url = https://github.com/spring-projects/spring-boot.git
+[submodule "data/repos/spring-data-elasticsearch"]
+	path = data/repos/spring-data-elasticsearch
+	url = https://github.com/spring-projects/spring-data-elasticsearch.git
+[submodule "data/repos/spring-framework"]
+	path = data/repos/spring-framework
+	url = https://github.com/spring-projects/spring-framework.git
+[submodule "data/repos/spring-pulsar"]
+	path = data/repos/spring-pulsar
+	url = https://github.com/spring-projects/spring-pulsar.git
+[submodule "data/repos/spring-credhub"]
+	path = data/repos/spring-credhub
+	url = https://github.com/spring-projects/spring-credhub.git
+[submodule "data/repos/spring-data-jpa"]
+	path = data/repos/spring-data-jpa
+	url = https://github.com/spring-projects/spring-data-jpa.git
+[submodule "data/repos/spring-data-couchbase"]
+	path = data/repos/spring-data-couchbase
+	url = https://github.com/spring-projects/spring-data-couchbase.git
+[submodule "data/repos/spring-data-redis"]
+	path = data/repos/spring-data-redis
+	url = https://github.com/spring-projects/spring-data-redis.git
+[submodule "data/repos/spring-security"]
+	path = data/repos/spring-security
+	url = https://github.com/spring-projects/spring-security.git
+[submodule "data/repos/spring-session"]
+	path = data/repos/spring-session
+	url = https://github.com/spring-projects/spring-session.git
+[submodule "data/repos/spring-integration"]
+	path = data/repos/spring-integration
+	url = https://github.com/spring-projects/spring-integration.git
+[submodule "data/repos/spring-tools"]
+	path = data/repos/spring-tools
+	url = https://github.com/spring-projects/spring-tools.git
+[submodule "data/repos/spring-integration-samples"]
+	path = data/repos/spring-integration-samples
+	url = https://github.com/spring-projects/spring-integration-samples.git
+[submodule "data/repos/spring-amqp-samples"]
+	path = data/repos/spring-amqp-samples
+	url = https://github.com/spring-projects/spring-amqp-samples.git
+[submodule "data/repos/spring-kafka"]
+	path = data/repos/spring-kafka
+	url = https://github.com/spring-projects/spring-kafka.git
+[submodule "data/repos/spring-data-neo4j"]
+	path = data/repos/spring-data-neo4j
+	url = https://github.com/spring-projects/spring-data-neo4j.git
+[submodule "data/repos/spring-data-build"]
+	path = data/repos/spring-data-build
+	url = https://github.com/spring-projects/spring-data-build.git
+[submodule "data/repos/spring-data-relational"]
+	path = data/repos/spring-data-relational
+	url = https://github.com/spring-projects/spring-data-relational.git
+[submodule "data/repos/spring-data-mongodb"]
+	path = data/repos/spring-data-mongodb
+	url = https://github.com/spring-projects/spring-data-mongodb.git
+[submodule "data/repos/spring-modulith"]
+	path = data/repos/spring-modulith
+	url = https://github.com/spring-projects/spring-modulith.git
+[submodule "data/repos/spring-data-commons"]
+	path = data/repos/spring-data-commons
+	url = https://github.com/spring-projects/spring-data-commons.git
+[submodule "data/repos/spring-authorization-server"]
+	path = data/repos/spring-authorization-server
+	url = https://github.com/spring-projects/spring-authorization-server.git
+[submodule "data/repos/spring-ws"]
+	path = data/repos/spring-ws
+	url = https://github.com/spring-projects/spring-ws.git
+[submodule "data/repos/spring-aot-smoke-tests"]
+	path = data/repos/spring-aot-smoke-tests
+	url = https://github.com/spring-projects/spring-aot-smoke-tests.git
+[submodule "data/repos/spring-restdocs"]
+	path = data/repos/spring-restdocs
+	url = https://github.com/spring-projects/spring-restdocs.git
+[submodule "data/repos/spring-batch-extensions"]
+	path = data/repos/spring-batch-extensions
+	url = https://github.com/spring-projects/spring-batch-extensions.git
+[submodule "data/repos/spring-data-examples"]
+	path = data/repos/spring-data-examples
+	url = https://github.com/spring-projects/spring-data-examples.git
+[submodule "data/repos/spring-petclinic"]
+	path = data/repos/spring-petclinic
+	url = https://github.com/spring-projects/spring-petclinic.git

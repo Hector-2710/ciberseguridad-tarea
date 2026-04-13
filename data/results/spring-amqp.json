@@ -1,0 +1,2398 @@
+{
+  "artifacts": [
+    {
+      "id": "f3332f468224a0e9",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci-snapshot.yml",
+          "accessPath": "/.github/workflows/ci-snapshot.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "e32556b8faf5a142",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/verify-staged-artifacts.yml",
+          "accessPath": "/.github/workflows/verify-staged-artifacts.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "3037d78a44627329",
+      "name": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/gradle/wrapper/gradle-wrapper.jar",
+          "accessPath": "/gradle/wrapper/gradle-wrapper.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache-2.0",
+          "spdxExpression": "Apache-2.0",
+          "type": "concluded",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/gradle/wrapper/gradle-wrapper.jar",
+              "accessPath": "/gradle/wrapper/gradle-wrapper.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.gradle.wrapper.GradleWrapperMain:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.gradle.wrapper.GradleWrapperMain:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.gradle.wrapper.GradleWrapperMain:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.gradle.wrapper.GradleWrapperMain:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:GradleWrapperMain:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:GradleWrapperMain:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:GradleWrapperMain:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:GradleWrapperMain:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrapper:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrapper:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.gradle.wrapper.GradleWrapperMain/gradle-wrapper",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/gradle/wrapper/gradle-wrapper.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "Gradle Wrapper"
+            },
+            {
+              "key": "SPDX-License-Identifier",
+              "value": "Apache-2.0"
+            },
+            {
+              "key": "Main-Class",
+              "value": "org.gradle.wrapper.GradleWrapperMain"
+            },
+            {
+              "key": "Enable-Native-Access",
+              "value": "ALL-UNNAMED"
+            }
+          ]
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "acb0e15fdf618e7342f7fcf9306356c8e18b62ce"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5a0f07e34b447bed",
+      "name": "namoshek/rabbitmq-github-action",
+      "version": "v1.2.0",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci-snapshot.yml",
+          "accessPath": "/.github/workflows/ci-snapshot.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq-github-action:namoshek\\/rabbitmq-github-action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq-github-action:namoshek\\/rabbitmq_github_action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq_github_action:namoshek\\/rabbitmq-github-action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq_github_action:namoshek\\/rabbitmq_github_action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq-github:namoshek\\/rabbitmq-github-action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq-github:namoshek\\/rabbitmq_github_action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq_github:namoshek\\/rabbitmq-github-action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq_github:namoshek\\/rabbitmq_github_action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq:namoshek\\/rabbitmq-github-action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq:namoshek\\/rabbitmq_github_action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/namoshek/rabbitmq-github-action@v1.2.0",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "namoshek/rabbitmq-github-action@v1.2.0"
+      }
+    },
+    {
+      "id": "346df6f8bb62cb6e",
+      "name": "namoshek/rabbitmq-github-action",
+      "version": "v1.2.0",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/verify-staged-artifacts.yml",
+          "accessPath": "/.github/workflows/verify-staged-artifacts.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq-github-action:namoshek\\/rabbitmq-github-action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq-github-action:namoshek\\/rabbitmq_github_action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq_github_action:namoshek\\/rabbitmq-github-action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq_github_action:namoshek\\/rabbitmq_github_action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq-github:namoshek\\/rabbitmq-github-action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq-github:namoshek\\/rabbitmq_github_action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq_github:namoshek\\/rabbitmq-github-action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq_github:namoshek\\/rabbitmq_github_action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq:namoshek\\/rabbitmq-github-action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:namoshek\\/rabbitmq:namoshek\\/rabbitmq_github_action:v1.2.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/namoshek/rabbitmq-github-action@v1.2.0",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "namoshek/rabbitmq-github-action@v1.2.0"
+      }
+    },
+    {
+      "id": "b3122d00745b84e0",
+      "name": "spring-io/backport-bot",
+      "version": "v0.0.2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/backport-issue.yml",
+          "accessPath": "/.github/workflows/backport-issue.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/backport-bot:spring-io\\/backport-bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/backport-bot:spring_io\\/backport_bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/backport_bot:spring-io\\/backport-bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/backport_bot:spring_io\\/backport_bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/backport:spring-io\\/backport-bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/backport:spring_io\\/backport_bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/backport:spring-io\\/backport-bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/backport:spring_io\\/backport_bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/backport-bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/backport_bot:v0.0.2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/backport-bot@v0.0.2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/backport-bot@v0.0.2"
+      }
+    },
+    {
+      "id": "0188febcdb615fff",
+      "name": "spring-io/spring-github-workflows/.github/actions/spring-artifactory-gradle-build",
+      "version": "main",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci-snapshot.yml",
+          "accessPath": "/.github/workflows/ci-snapshot.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring-artifactory-gradle-build:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring-artifactory-gradle-build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring-artifactory-gradle-build:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring_artifactory_gradle_build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring_artifactory_gradle_build:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring-artifactory-gradle-build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring_artifactory_gradle_build:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring_artifactory_gradle_build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring-artifactory-gradle:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring-artifactory-gradle-build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring-artifactory-gradle:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring_artifactory_gradle_build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring_artifactory_gradle:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring-artifactory-gradle-build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring_artifactory_gradle:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring_artifactory_gradle_build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring-artifactory:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring-artifactory-gradle-build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring-artifactory:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring_artifactory_gradle_build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring_artifactory:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring-artifactory-gradle-build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring_artifactory:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring_artifactory_gradle_build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring-artifactory-gradle-build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring_artifactory_gradle_build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring-artifactory-gradle-build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring_artifactory_gradle_build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring-artifactory-gradle-build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring_artifactory_gradle_build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring-artifactory-gradle-build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring_artifactory_gradle_build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring-artifactory-gradle-build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring_artifactory_gradle_build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring-artifactory-gradle-build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring_artifactory_gradle_build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-github-workflows\\/.github\\/actions\\/spring-artifactory-gradle-build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_github_workflows\\/.github\\/actions\\/spring_artifactory_gradle_build:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-github-workflows@main#.github/actions/spring-artifactory-gradle-build",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-github-workflows/.github/actions/spring-artifactory-gradle-build@main"
+      }
+    },
+    {
+      "id": "4c99b90f8bc8f1b1",
+      "name": "spring-io/spring-github-workflows/.github/workflows/spring-announce-milestone-planning.yml",
+      "version": "v7",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/announce-milestone-planning.yml",
+          "accessPath": "/.github/workflows/announce-milestone-planning.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-announce-milestone-planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_announce_milestone_planning.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-github-workflows@v7#.github/workflows/spring-announce-milestone-planning.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-github-workflows/.github/workflows/spring-announce-milestone-planning.yml@v7"
+      }
+    },
+    {
+      "id": "80abe463b02f0970",
+      "name": "spring-io/spring-github-workflows/.github/workflows/spring-artifactory-gradle-release.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/release.yml",
+          "accessPath": "/.github/workflows/release.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-artifactory-gradle-release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_artifactory_gradle_release.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-github-workflows@main#.github/workflows/spring-artifactory-gradle-release.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-github-workflows/.github/workflows/spring-artifactory-gradle-release.yml@main"
+      }
+    },
+    {
+      "id": "df99ef21b12858a4",
+      "name": "spring-io/spring-github-workflows/.github/workflows/spring-cherry-pick.yml",
+      "version": "v7",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/auto-cherry-pick.yml",
+          "accessPath": "/.github/workflows/auto-cherry-pick.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-cherry-pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_cherry_pick.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-github-workflows@v7#.github/workflows/spring-cherry-pick.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-github-workflows/.github/workflows/spring-cherry-pick.yml@v7"
+      }
+    },
+    {
+      "id": "17aca9f02e2d6a8d",
+      "name": "spring-io/spring-github-workflows/.github/workflows/spring-dispatch-docs-build.yml",
+      "version": "v7",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/deploy-docs.yml",
+          "accessPath": "/.github/workflows/deploy-docs.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-dispatch-docs-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_dispatch_docs_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-github-workflows@v7#.github/workflows/spring-dispatch-docs-build.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-github-workflows/.github/workflows/spring-dispatch-docs-build.yml@v7"
+      }
+    },
+    {
+      "id": "a0a1d6a0e85801a3",
+      "name": "spring-io/spring-github-workflows/.github/workflows/spring-gradle-ci.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-ci.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-ci.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_ci.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_ci.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_ci.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-github-workflows@main#.github/workflows/spring-gradle-ci.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-github-workflows/.github/workflows/spring-gradle-ci.yml@main"
+      }
+    },
+    {
+      "id": "a8163506859efa6c",
+      "name": "spring-io/spring-github-workflows/.github/workflows/spring-gradle-pull-request-build.yml",
+      "version": "v7",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/pr-build.yml",
+          "accessPath": "/.github/workflows/pr-build.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-gradle-pull-request-build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_gradle_pull_request_build.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-github-workflows@v7#.github/workflows/spring-gradle-pull-request-build.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-github-workflows/.github/workflows/spring-gradle-pull-request-build.yml@v7"
+      }
+    },
+    {
+      "id": "1c4279b671d719ed",
+      "name": "spring-io/spring-github-workflows/.github/workflows/spring-merge-dependabot-pr.yml",
+      "version": "v7",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/merge-dependabot-pr.yml",
+          "accessPath": "/.github/workflows/merge-dependabot-pr.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-merge-dependabot-pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_merge_dependabot_pr.yml:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-github-workflows@v7#.github/workflows/spring-merge-dependabot-pr.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-github-workflows/.github/workflows/spring-merge-dependabot-pr.yml@v7"
+      }
+    },
+    {
+      "id": "e15479a5d786860b",
+      "name": "spring-io/spring-github-workflows/.github/workflows/spring-trigger-dependabot-updates.yml",
+      "version": "main",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/trigger-dependabot-updates.yml",
+          "accessPath": "/.github/workflows/trigger-dependabot-updates.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_github:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-github-workflows\\/.github\\/workflows\\/spring-trigger-dependabot-updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_github_workflows\\/.github\\/workflows\\/spring_trigger_dependabot_updates.yml:main:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-github-workflows@main#.github/workflows/spring-trigger-dependabot-updates.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-github-workflows/.github/workflows/spring-trigger-dependabot-updates.yml@main"
+      }
+    },
+    {
+      "id": "628a90aec9b1a25c",
+      "name": "spring-io/spring-gradle-build-action",
+      "version": "v2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/verify-staged-artifacts.yml",
+          "accessPath": "/.github/workflows/verify-staged-artifacts.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-gradle-build-action@v2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-gradle-build-action@v2"
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "0188febcdb615fff",
+      "child": "ea2541a9c243574e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "17aca9f02e2d6a8d",
+      "child": "e6cfa767b34eb264",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1c4279b671d719ed",
+      "child": "597b16c95046cd80",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "3037d78a44627329",
+      "child": "803860b7b0aaa5b6",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "346df6f8bb62cb6e",
+      "child": "9513fa0d13361a88",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "4c99b90f8bc8f1b1",
+      "child": "30d19713afa28845",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5a0f07e34b447bed",
+      "child": "ea2541a9c243574e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "628a90aec9b1a25c",
+      "child": "9513fa0d13361a88",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "80abe463b02f0970",
+      "child": "cc210d8a1a5f5704",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "99b2dcf07dc9e135542a17fb09409ae9a47ea820388fe4013e8a7654db6f47d9",
+      "child": "0188febcdb615fff",
+      "type": "contains"
+    },
+    {
+      "parent": "99b2dcf07dc9e135542a17fb09409ae9a47ea820388fe4013e8a7654db6f47d9",
+      "child": "17aca9f02e2d6a8d",
+      "type": "contains"
+    },
+    {
+      "parent": "99b2dcf07dc9e135542a17fb09409ae9a47ea820388fe4013e8a7654db6f47d9",
+      "child": "1c4279b671d719ed",
+      "type": "contains"
+    },
+    {
+      "parent": "99b2dcf07dc9e135542a17fb09409ae9a47ea820388fe4013e8a7654db6f47d9",
+      "child": "3037d78a44627329",
+      "type": "contains"
+    },
+    {
+      "parent": "99b2dcf07dc9e135542a17fb09409ae9a47ea820388fe4013e8a7654db6f47d9",
+      "child": "346df6f8bb62cb6e",
+      "type": "contains"
+    },
+    {
+      "parent": "99b2dcf07dc9e135542a17fb09409ae9a47ea820388fe4013e8a7654db6f47d9",
+      "child": "4c99b90f8bc8f1b1",
+      "type": "contains"
+    },
+    {
+      "parent": "99b2dcf07dc9e135542a17fb09409ae9a47ea820388fe4013e8a7654db6f47d9",
+      "child": "5a0f07e34b447bed",
+      "type": "contains"
+    },
+    {
+      "parent": "99b2dcf07dc9e135542a17fb09409ae9a47ea820388fe4013e8a7654db6f47d9",
+      "child": "628a90aec9b1a25c",
+      "type": "contains"
+    },
+    {
+      "parent": "99b2dcf07dc9e135542a17fb09409ae9a47ea820388fe4013e8a7654db6f47d9",
+      "child": "80abe463b02f0970",
+      "type": "contains"
+    },
+    {
+      "parent": "99b2dcf07dc9e135542a17fb09409ae9a47ea820388fe4013e8a7654db6f47d9",
+      "child": "a0a1d6a0e85801a3",
+      "type": "contains"
+    },
+    {
+      "parent": "99b2dcf07dc9e135542a17fb09409ae9a47ea820388fe4013e8a7654db6f47d9",
+      "child": "a8163506859efa6c",
+      "type": "contains"
+    },
+    {
+      "parent": "99b2dcf07dc9e135542a17fb09409ae9a47ea820388fe4013e8a7654db6f47d9",
+      "child": "b3122d00745b84e0",
+      "type": "contains"
+    },
+    {
+      "parent": "99b2dcf07dc9e135542a17fb09409ae9a47ea820388fe4013e8a7654db6f47d9",
+      "child": "df99ef21b12858a4",
+      "type": "contains"
+    },
+    {
+      "parent": "99b2dcf07dc9e135542a17fb09409ae9a47ea820388fe4013e8a7654db6f47d9",
+      "child": "e15479a5d786860b",
+      "type": "contains"
+    },
+    {
+      "parent": "99b2dcf07dc9e135542a17fb09409ae9a47ea820388fe4013e8a7654db6f47d9",
+      "child": "e32556b8faf5a142",
+      "type": "contains"
+    },
+    {
+      "parent": "99b2dcf07dc9e135542a17fb09409ae9a47ea820388fe4013e8a7654db6f47d9",
+      "child": "f3332f468224a0e9",
+      "type": "contains"
+    },
+    {
+      "parent": "a0a1d6a0e85801a3",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a8163506859efa6c",
+      "child": "4c93f5fdf2d3efcd",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b3122d00745b84e0",
+      "child": "23641bbb63ed813f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "df99ef21b12858a4",
+      "child": "264d1f99c91cd9ce",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e15479a5d786860b",
+      "child": "adf28bf82c9f7912",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "e32556b8faf5a142",
+      "child": "9513fa0d13361a88",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "f3332f468224a0e9",
+      "child": "ea2541a9c243574e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "30d19713afa28845",
+      "location": {
+        "path": "/.github/workflows/announce-milestone-planning.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 330
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "fb5130592b4c5dffaffdeac27e4d1f38b5bbb71c"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "c2a79912e656fc661b1897b2ea477af70354a3e329aab4c7e1ec05da835c7932"
+        }
+      ]
+    },
+    {
+      "id": "264d1f99c91cd9ce",
+      "location": {
+        "path": "/.github/workflows/auto-cherry-pick.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 272
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "6d7b7bb8eab04caf4789747786e65007aa6b934a"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "bb9fe283e224630c8e53d7722034bab0743de5ccabb1a42ae5e004e241c81ae7"
+        }
+      ]
+    },
+    {
+      "id": "23641bbb63ed813f",
+      "location": {
+        "path": "/.github/workflows/backport-issue.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 354
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "f00c935f305e0571e8e13c80341ca250a704a372"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "d82dacf13ca5775e81c62807e1de79269cd7b784d0f9b64a5ed3997febafa9c7"
+        }
+      ]
+    },
+    {
+      "id": "ea2541a9c243574e",
+      "location": {
+        "path": "/.github/workflows/ci-snapshot.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 1159
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "59a2a28eb559f849d7b3640ae26428a8058f2615"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "820389fc5ee917713dbe56778420809a03ee971cc3f983b4a35d71b9672541af"
+        }
+      ]
+    },
+    {
+      "id": "7561d461b00ff11d",
+      "location": {
+        "path": "/.github/workflows/ci.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 596
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "e2901470c53378b3277b380200e77a9e37745973"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "e537fa8d57fd708cba49c82e31b301c5ee7ae7c82e5c69e0f1adcf8b406c8e6e"
+        }
+      ]
+    },
+    {
+      "id": "e6cfa767b34eb264",
+      "location": {
+        "path": "/.github/workflows/deploy-docs.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 327
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "357d642c8d5f17247b9d8328aab4ab97c6f4181a"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "6bf7c545def2b827dbf7297431f021f576e7500af9bda5c9b5700002a2f86c6b"
+        }
+      ]
+    },
+    {
+      "id": "597b16c95046cd80",
+      "location": {
+        "path": "/.github/workflows/merge-dependabot-pr.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 375
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "3761021c9bb64e42432c2a710cbe2df3596f2ba1"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "81d475cb4be327f79b21d85d4148037b464fb3ba92e9bd6c1b5b4431b91b4640"
+        }
+      ]
+    },
+    {
+      "id": "4c93f5fdf2d3efcd",
+      "location": {
+        "path": "/.github/workflows/pr-build.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 218
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "68ed90ce7fc1dbe858f5c66ee7bd1c182d2f1e37"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "fb63a60830cfaab0dbb9d998c79605aaa25e0851c5dd67ec69c2ea5c9b7e93a5"
+        }
+      ]
+    },
+    {
+      "id": "cc210d8a1a5f5704",
+      "location": {
+        "path": "/.github/workflows/release.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 1027
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "13b7de48d5191e8cba9ca68f9b2856e4fbcc1c38"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "b1f6404bfc7c8ac50c9e2724e42b3e747746b62f5d5dfa308f6e892140906e54"
+        }
+      ]
+    },
+    {
+      "id": "adf28bf82c9f7912",
+      "location": {
+        "path": "/.github/workflows/trigger-dependabot-updates.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 271
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "22507ee4d43908afa2d336561a9b6be34e7aebe7"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "5c51773d63be55384c80ba7511e93d3cab09b14e4656787cee53a0d7b693a62a"
+        }
+      ]
+    },
+    {
+      "id": "9513fa0d13361a88",
+      "location": {
+        "path": "/.github/workflows/verify-staged-artifacts.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 1776
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "7e53dd3adc5c0fba6629a3f18b7c5c9e7005801d"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "bb99730f7357eba1f4b9494c8f2921732d95aee438a13abe44aa38300739f05c"
+        }
+      ]
+    },
+    {
+      "id": "803860b7b0aaa5b6",
+      "location": {
+        "path": "/gradle/wrapper/gradle-wrapper.jar"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "application/zip",
+        "size": 46175
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "acb0e15fdf618e7342f7fcf9306356c8e18b62ce"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "b3a875ddc1f044746e1b1a55f645584505f4a10438c1afea9f15e92a7c42ec13"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "id": "99b2dcf07dc9e135542a17fb09409ae9a47ea820388fe4013e8a7654db6f47d9",
+    "name": "/home/hector/ciberseguridad_2026/data/repos/spring-amqp",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/home/hector/ciberseguridad_2026/data/repos/spring-amqp"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.42.4",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "conda-meta-cataloger",
+          "dart-pubspec-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "deb-archive-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dotnet-packages-lock-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "gguf-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "opam-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-lock-cataloger",
+          "php-interpreter-cataloger",
+          "php-pear-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "r-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "snap-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "terraform-lock-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "valkey-binary",
+          "nodejs-binary",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "qt-qtbase-lib",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "istio-binary",
+          "istio-binary",
+          "grafana-binary",
+          "grafana-binary",
+          "envoy-binary",
+          "mongodb-binary",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "exclude-project-references": true,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/home/hector/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false,
+          "use-packages-lib": true
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/hector/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.3",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.3.json"
+  }
+}

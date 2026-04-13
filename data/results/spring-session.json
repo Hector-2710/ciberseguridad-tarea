@@ -1,0 +1,2334 @@
+{
+  "artifacts": [
+    {
+      "id": "f435d91777fe97f2",
+      "name": "actions/cache",
+      "version": "v5",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/pr-build-workflow.yml",
+          "accessPath": "/.github/workflows/pr-build-workflow.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/cache:actions\\/cache:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/cache@v5",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/cache@v5"
+      }
+    },
+    {
+      "id": "97387985d7b1447f",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/dependabot-auto-merge-forward.yml",
+          "accessPath": "/.github/workflows/dependabot-auto-merge-forward.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "d999979cfe6b5aff",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/deploy-docs.yml",
+          "accessPath": "/.github/workflows/deploy-docs.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "8bbf4ee79e5f7b72",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/gradle-wrapper-validation.yml",
+          "accessPath": "/.github/workflows/gradle-wrapper-validation.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "4b3057331635d5ba",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/merge-dependabot-pr.yml",
+          "accessPath": "/.github/workflows/merge-dependabot-pr.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "96dffb5be86d1e0c",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/pr-build-workflow.yml",
+          "accessPath": "/.github/workflows/pr-build-workflow.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "1b4c26f409466548",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/rebuild-search-index.yml",
+          "accessPath": "/.github/workflows/rebuild-search-index.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "4a5ef55faad689bd",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/release-scheduler.yml",
+          "accessPath": "/.github/workflows/release-scheduler.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "7480c59a36aff162",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/trigger-dependabot-auto-merge-forward.yml",
+          "accessPath": "/.github/workflows/trigger-dependabot-auto-merge-forward.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "55d7f2c2f6c8625e",
+      "name": "actions/setup-java",
+      "version": "v4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/merge-dependabot-pr.yml",
+          "accessPath": "/.github/workflows/merge-dependabot-pr.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-java@v4",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-java@v4"
+      }
+    },
+    {
+      "id": "d4a7435c05ae2f53",
+      "name": "actions/setup-java",
+      "version": "v4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/pr-build-workflow.yml",
+          "accessPath": "/.github/workflows/pr-build-workflow.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup-java:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup-java:actions\\/setup_java:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_java:actions\\/setup-java:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup_java:actions\\/setup_java:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup-java:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/setup:actions\\/setup_java:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-java@v4",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/setup-java@v4"
+      }
+    },
+    {
+      "id": "246914cb3526720e",
+      "name": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/buildSrc/gradle/wrapper/gradle-wrapper.jar",
+          "accessPath": "/buildSrc/gradle/wrapper/gradle-wrapper.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/gradle-wrapper/gradle-wrapper",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/buildSrc/gradle/wrapper/gradle-wrapper.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "Gradle Wrapper"
+            }
+          ]
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "2aa1e772a1dc5a9b15d50443db4731b25180d58e"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2e90de5a290134b7",
+      "name": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/gradle/wrapper/gradle-wrapper.jar",
+          "accessPath": "/gradle/wrapper/gradle-wrapper.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache-2.0",
+          "spdxExpression": "Apache-2.0",
+          "type": "concluded",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/gradle/wrapper/gradle-wrapper.jar",
+              "accessPath": "/gradle/wrapper/gradle-wrapper.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.gradle.wrapper.GradleWrapperMain:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.gradle.wrapper.GradleWrapperMain:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.gradle.wrapper.GradleWrapperMain:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.gradle.wrapper.GradleWrapperMain:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:GradleWrapperMain:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:GradleWrapperMain:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:GradleWrapperMain:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:GradleWrapperMain:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrapper:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrapper:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.gradle.wrapper.GradleWrapperMain/gradle-wrapper",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/gradle/wrapper/gradle-wrapper.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "Gradle Wrapper"
+            },
+            {
+              "key": "Main-Class",
+              "value": "org.gradle.wrapper.GradleWrapperMain"
+            },
+            {
+              "key": "Enable-Native-Access",
+              "value": "ALL-UNNAMED"
+            }
+          ]
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "544d80232399265b2e8e152220cf016c5ce33c7d"
+          }
+        ]
+      }
+    },
+    {
+      "id": "50f8fe4259edf4a3",
+      "name": "gradle/actions/wrapper-validation",
+      "version": "v5",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/gradle-wrapper-validation.yml",
+          "accessPath": "/.github/workflows/gradle-wrapper-validation.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:gradle\\/actions\\/wrapper-validation:gradle\\/actions\\/wrapper-validation:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle\\/actions\\/wrapper-validation:gradle\\/actions\\/wrapper_validation:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle\\/actions\\/wrapper_validation:gradle\\/actions\\/wrapper-validation:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle\\/actions\\/wrapper_validation:gradle\\/actions\\/wrapper_validation:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle\\/actions\\/wrapper:gradle\\/actions\\/wrapper-validation:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle\\/actions\\/wrapper:gradle\\/actions\\/wrapper_validation:v5:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/gradle/actions@v5#wrapper-validation",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "gradle/actions/wrapper-validation@v5"
+      }
+    },
+    {
+      "id": "53cc723ed30b2c47",
+      "name": "spring-io/spring-doc-actions/update-antora-spring-ui",
+      "version": "415e2b11a766ba64799fffb5c97a4f7e17f677cf",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/update-antora-ui-spring.yml",
+          "accessPath": "/.github/workflows/update-antora-ui-spring.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/update-antora-spring-ui:spring-io\\/spring-doc-actions\\/update-antora-spring-ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/update-antora-spring-ui:spring_io\\/spring_doc_actions\\/update_antora_spring_ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/update_antora_spring_ui:spring-io\\/spring-doc-actions\\/update-antora-spring-ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/update_antora_spring_ui:spring_io\\/spring_doc_actions\\/update_antora_spring_ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/update-antora-spring:spring-io\\/spring-doc-actions\\/update-antora-spring-ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/update-antora-spring:spring_io\\/spring_doc_actions\\/update_antora_spring_ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/update_antora_spring:spring-io\\/spring-doc-actions\\/update-antora-spring-ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/update_antora_spring:spring_io\\/spring_doc_actions\\/update_antora_spring_ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/update-antora:spring-io\\/spring-doc-actions\\/update-antora-spring-ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/update-antora:spring_io\\/spring_doc_actions\\/update_antora_spring_ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/update_antora:spring-io\\/spring-doc-actions\\/update-antora-spring-ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/update_antora:spring_io\\/spring_doc_actions\\/update_antora_spring_ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/update:spring-io\\/spring-doc-actions\\/update-antora-spring-ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/update:spring_io\\/spring_doc_actions\\/update_antora_spring_ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/update:spring-io\\/spring-doc-actions\\/update-antora-spring-ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/update:spring_io\\/spring_doc_actions\\/update_antora_spring_ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc:spring-io\\/spring-doc-actions\\/update-antora-spring-ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc:spring_io\\/spring_doc_actions\\/update_antora_spring_ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc:spring-io\\/spring-doc-actions\\/update-antora-spring-ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc:spring_io\\/spring_doc_actions\\/update_antora_spring_ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-doc-actions\\/update-antora-spring-ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_doc_actions\\/update_antora_spring_ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-doc-actions\\/update-antora-spring-ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_doc_actions\\/update_antora_spring_ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-doc-actions\\/update-antora-spring-ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_doc_actions\\/update_antora_spring_ui:415e2b11a766ba64799fffb5c97a4f7e17f677cf:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-doc-actions@415e2b11a766ba64799fffb5c97a4f7e17f677cf#update-antora-spring-ui",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-doc-actions/update-antora-spring-ui@415e2b11a766ba64799fffb5c97a4f7e17f677cf"
+      }
+    },
+    {
+      "id": "daf124d331a854ca",
+      "name": "spring-io/spring-security-release-tools/.github/actions/auto-merge-forward",
+      "version": "actions-v1",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/dependabot-auto-merge-forward.yml",
+          "accessPath": "/.github/workflows/dependabot-auto-merge-forward.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/actions\\/auto-merge-forward:spring-io\\/spring-security-release-tools\\/.github\\/actions\\/auto-merge-forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/actions\\/auto-merge-forward:spring_io\\/spring_security_release_tools\\/.github\\/actions\\/auto_merge_forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/actions\\/auto_merge_forward:spring-io\\/spring-security-release-tools\\/.github\\/actions\\/auto-merge-forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/actions\\/auto_merge_forward:spring_io\\/spring_security_release_tools\\/.github\\/actions\\/auto_merge_forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/actions\\/auto-merge:spring-io\\/spring-security-release-tools\\/.github\\/actions\\/auto-merge-forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/actions\\/auto-merge:spring_io\\/spring_security_release_tools\\/.github\\/actions\\/auto_merge_forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/actions\\/auto_merge:spring-io\\/spring-security-release-tools\\/.github\\/actions\\/auto-merge-forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/actions\\/auto_merge:spring_io\\/spring_security_release_tools\\/.github\\/actions\\/auto_merge_forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/actions\\/auto:spring-io\\/spring-security-release-tools\\/.github\\/actions\\/auto-merge-forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/actions\\/auto:spring_io\\/spring_security_release_tools\\/.github\\/actions\\/auto_merge_forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/actions\\/auto:spring-io\\/spring-security-release-tools\\/.github\\/actions\\/auto-merge-forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/actions\\/auto:spring_io\\/spring_security_release_tools\\/.github\\/actions\\/auto_merge_forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release:spring-io\\/spring-security-release-tools\\/.github\\/actions\\/auto-merge-forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release:spring_io\\/spring_security_release_tools\\/.github\\/actions\\/auto_merge_forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release:spring-io\\/spring-security-release-tools\\/.github\\/actions\\/auto-merge-forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release:spring_io\\/spring_security_release_tools\\/.github\\/actions\\/auto_merge_forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security:spring-io\\/spring-security-release-tools\\/.github\\/actions\\/auto-merge-forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security:spring_io\\/spring_security_release_tools\\/.github\\/actions\\/auto_merge_forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security:spring-io\\/spring-security-release-tools\\/.github\\/actions\\/auto-merge-forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security:spring_io\\/spring_security_release_tools\\/.github\\/actions\\/auto_merge_forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-security-release-tools\\/.github\\/actions\\/auto-merge-forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_security_release_tools\\/.github\\/actions\\/auto_merge_forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-security-release-tools\\/.github\\/actions\\/auto-merge-forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_security_release_tools\\/.github\\/actions\\/auto_merge_forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-security-release-tools\\/.github\\/actions\\/auto-merge-forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_security_release_tools\\/.github\\/actions\\/auto_merge_forward:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-security-release-tools@actions-v1#.github/actions/auto-merge-forward",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-security-release-tools/.github/actions/auto-merge-forward@actions-v1"
+      }
+    },
+    {
+      "id": "2c33c99dd8e29384",
+      "name": "spring-io/spring-security-release-tools/.github/workflows/build.yml",
+      "version": "v1.0.14",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/continuous-integration-workflow.yml",
+          "accessPath": "/.github/workflows/continuous-integration-workflow.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/build.yml:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/build.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/build.yml:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/build.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/build.yml:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/build.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/build.yml:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/build.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/build.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/build.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/build.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/build.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/build.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/build.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/build.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/build.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/build.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/build.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/build.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/build.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/build.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/build.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-security-release-tools@v1.0.14#.github/workflows/build.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-security-release-tools/.github/workflows/build.yml@v1.0.14"
+      }
+    },
+    {
+      "id": "f2ecce9c9a46a6c9",
+      "name": "spring-io/spring-security-release-tools/.github/workflows/deploy-artifacts.yml",
+      "version": "v1.0.14",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/continuous-integration-workflow.yml",
+          "accessPath": "/.github/workflows/continuous-integration-workflow.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/deploy-artifacts.yml:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/deploy-artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/deploy-artifacts.yml:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/deploy_artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/deploy_artifacts.yml:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/deploy-artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/deploy_artifacts.yml:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/deploy_artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/deploy:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/deploy-artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/deploy:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/deploy_artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/deploy:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/deploy-artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/deploy:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/deploy_artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/deploy-artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/deploy_artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/deploy-artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/deploy_artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/deploy-artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/deploy_artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/deploy-artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/deploy_artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/deploy-artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/deploy_artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/deploy-artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/deploy_artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/deploy-artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/deploy_artifacts.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-security-release-tools@v1.0.14#.github/workflows/deploy-artifacts.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-security-release-tools/.github/workflows/deploy-artifacts.yml@v1.0.14"
+      }
+    },
+    {
+      "id": "c51250cc6a4ce226",
+      "name": "spring-io/spring-security-release-tools/.github/workflows/perform-release.yml",
+      "version": "v1.0.14",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/continuous-integration-workflow.yml",
+          "accessPath": "/.github/workflows/continuous-integration-workflow.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/perform-release.yml:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/perform-release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/perform-release.yml:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/perform_release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/perform_release.yml:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/perform-release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/perform_release.yml:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/perform_release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/perform:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/perform-release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/perform:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/perform_release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/perform:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/perform-release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/perform:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/perform_release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/perform-release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/perform_release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/perform-release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/perform_release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/perform-release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/perform_release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/perform-release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/perform_release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/perform-release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/perform_release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/perform-release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/perform_release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/perform-release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/perform_release.yml:v1.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-security-release-tools@v1.0.14#.github/workflows/perform-release.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-security-release-tools/.github/workflows/perform-release.yml@v1.0.14"
+      }
+    },
+    {
+      "id": "ed1f0d97b0871a64",
+      "name": "spring-io/spring-security-release-tools/.github/workflows/retrieve-spring-supported-versions.yml",
+      "version": "actions-v1",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/dependabot-auto-merge-forward.yml",
+          "accessPath": "/.github/workflows/dependabot-auto-merge-forward.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring-supported-versions.yml:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring-supported-versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring-supported-versions.yml:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring_supported_versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring_supported_versions.yml:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring-supported-versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring_supported_versions.yml:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring_supported_versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring-supported:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring-supported-versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring-supported:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring_supported_versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring_supported:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring-supported-versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring_supported:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring_supported_versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring-supported-versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring_supported_versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring-supported-versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring_supported_versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring-supported-versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring_supported_versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring-supported-versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring_supported_versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring-supported-versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring_supported_versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring-supported-versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring_supported_versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring-supported-versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring_supported_versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring-supported-versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring_supported_versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring-supported-versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring_supported_versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring-supported-versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring_supported_versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/retrieve-spring-supported-versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/retrieve_spring_supported_versions.yml:actions-v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-security-release-tools@actions-v1#.github/workflows/retrieve-spring-supported-versions.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-security-release-tools/.github/workflows/retrieve-spring-supported-versions.yml@actions-v1"
+      }
+    },
+    {
+      "id": "b1139afb676f02b6",
+      "name": "spring-io/spring-security-release-tools/.github/workflows/update-scheduled-release-version.yml",
+      "version": "v1",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/update-scheduled-release-version.yml",
+          "accessPath": "/.github/workflows/update-scheduled-release-version.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled-release-version.yml:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled-release-version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled-release-version.yml:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled_release_version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled_release_version.yml:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled-release-version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled_release_version.yml:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled_release_version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled-release:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled-release-version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled-release:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled_release_version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled_release:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled-release-version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled_release:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled_release_version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled-release-version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled_release_version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled-release-version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled_release_version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled-release-version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled_release_version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled-release-version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled_release_version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled-release-version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security-release:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled_release_version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled-release-version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security_release:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled_release_version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled-release-version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-security:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled_release_version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled-release-version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_security:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled_release_version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled-release-version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled_release_version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled-release-version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled_release_version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-security-release-tools\\/.github\\/workflows\\/update-scheduled-release-version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_security_release_tools\\/.github\\/workflows\\/update_scheduled_release_version.yml:v1:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-security-release-tools@v1#.github/workflows/update-scheduled-release-version.yml",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-security-release-tools/.github/workflows/update-scheduled-release-version.yml@v1"
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "1b4c26f409466548",
+      "child": "d3fe71a66a160a18",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "246914cb3526720e",
+      "child": "de65780062d0050e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2c33c99dd8e29384",
+      "child": "2067d0ec682f0fe2",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2e90de5a290134b7",
+      "child": "803860b7b0aaa5b6",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "4a5ef55faad689bd",
+      "child": "5b4ff4c3025d95d9",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "4b3057331635d5ba",
+      "child": "597b16c95046cd80",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "50f8fe4259edf4a3",
+      "child": "9d6d7b00d3830a0e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "53cc723ed30b2c47",
+      "child": "e190d4d604dbce93",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "55d7f2c2f6c8625e",
+      "child": "597b16c95046cd80",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "7480c59a36aff162",
+      "child": "3075d8368924d313",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "8bbf4ee79e5f7b72",
+      "child": "9d6d7b00d3830a0e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "96dffb5be86d1e0c",
+      "child": "ff4eaa29b81b8621",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "97387985d7b1447f",
+      "child": "a4e14731b600a397",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "1b4c26f409466548",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "246914cb3526720e",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "2c33c99dd8e29384",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "2e90de5a290134b7",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "4a5ef55faad689bd",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "4b3057331635d5ba",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "50f8fe4259edf4a3",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "53cc723ed30b2c47",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "55d7f2c2f6c8625e",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "7480c59a36aff162",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "8bbf4ee79e5f7b72",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "96dffb5be86d1e0c",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "97387985d7b1447f",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "b1139afb676f02b6",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "c51250cc6a4ce226",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "d4a7435c05ae2f53",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "d999979cfe6b5aff",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "daf124d331a854ca",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "ed1f0d97b0871a64",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "f2ecce9c9a46a6c9",
+      "type": "contains"
+    },
+    {
+      "parent": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+      "child": "f435d91777fe97f2",
+      "type": "contains"
+    },
+    {
+      "parent": "b1139afb676f02b6",
+      "child": "09e6f0fec12434a1",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c51250cc6a4ce226",
+      "child": "2067d0ec682f0fe2",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d4a7435c05ae2f53",
+      "child": "ff4eaa29b81b8621",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d999979cfe6b5aff",
+      "child": "e6cfa767b34eb264",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "daf124d331a854ca",
+      "child": "a4e14731b600a397",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ed1f0d97b0871a64",
+      "child": "a4e14731b600a397",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "f2ecce9c9a46a6c9",
+      "child": "2067d0ec682f0fe2",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "f435d91777fe97f2",
+      "child": "ff4eaa29b81b8621",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "2067d0ec682f0fe2",
+      "location": {
+        "path": "/.github/workflows/continuous-integration-workflow.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 1421
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "05887a123c9ab2812673a3db430c5b3464b228a3"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "6341a420178b88bfce47dc606317fc35d39e743821615cbf123ef523d7acdccd"
+        }
+      ]
+    },
+    {
+      "id": "a4e14731b600a397",
+      "location": {
+        "path": "/.github/workflows/dependabot-auto-merge-forward.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 1274
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "e37d4451037765a37090bc54af72bfb64ceaff07"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "11a277978fafb450fc91ff377efafc9881bc1854e2901ca5137abde850e00518"
+        }
+      ]
+    },
+    {
+      "id": "e6cfa767b34eb264",
+      "location": {
+        "path": "/.github/workflows/deploy-docs.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 979
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "4d19ab9e31e18f3cebecba416924a60d9f9cb770"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "468d6b6b912892ad9422bd32b638f11394a0e516647c57bbf0f1dfcced032aa1"
+        }
+      ]
+    },
+    {
+      "id": "9d6d7b00d3830a0e",
+      "location": {
+        "path": "/.github/workflows/gradle-wrapper-validation.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 224
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "44f420dc49466c40e46b1fe6c7965bd20534595c"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "c8e0256e7b42b47e4413e3a089a85f09fb821f6395c80aa4e63de89e0d40afb3"
+        }
+      ]
+    },
+    {
+      "id": "597b16c95046cd80",
+      "location": {
+        "path": "/.github/workflows/merge-dependabot-pr.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 1849
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "c34d7cf65a9519d1133a955edc2c55a0149b0bbe"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "bea345b73ce9c35daa3320fff6fc54fd62cc9359cdbff4773acef5c6683b261d"
+        }
+      ]
+    },
+    {
+      "id": "ff4eaa29b81b8621",
+      "location": {
+        "path": "/.github/workflows/pr-build-workflow.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 740
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "5efc04cb19cb18631c25f901d7042edec065754e"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "4c8b84f5b68659bac7b3d5e64f901e8446a5d6727087ed4d91d81668fa7439c3"
+        }
+      ]
+    },
+    {
+      "id": "d3fe71a66a160a18",
+      "location": {
+        "path": "/.github/workflows/rebuild-search-index.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 551
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "a931922b6c2af6bb04ffdb73da94404a15584445"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "3c4043801e81946641a7cf9b037bda5e4b4ee4ebe409429d7d3ccfb1b4ee5e28"
+        }
+      ]
+    },
+    {
+      "id": "5b4ff4c3025d95d9",
+      "location": {
+        "path": "/.github/workflows/release-scheduler.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 711
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "2e15be86966c8714de15545de7160a585fb423c3"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "14a490bd89e4003f2c70d56fe9f4df1eb4519dce0feb71c2e0ff575a48aaf5f5"
+        }
+      ]
+    },
+    {
+      "id": "3075d8368924d313",
+      "location": {
+        "path": "/.github/workflows/trigger-dependabot-auto-merge-forward.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 571
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "ecfc210d152d9b4e7b5c266955c048f244ad2c82"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "300b0e771c8def038cd9263e0e7e3f4fcdfb661b7f65a97789e3bc49f80ccf79"
+        }
+      ]
+    },
+    {
+      "id": "e190d4d604dbce93",
+      "location": {
+        "path": "/.github/workflows/update-antora-ui-spring.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 529
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "b9419c3f3101ec578bac0bc75fe05e5829918db7"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "b65a845da26e69e8a2624d1b6ce1bcfe497b31e7de49703922d3cfb20358d432"
+        }
+      ]
+    },
+    {
+      "id": "09e6f0fec12434a1",
+      "location": {
+        "path": "/.github/workflows/update-scheduled-release-version.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 347
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "8ff7d83ed8bc8ef5005396a8cdee5af0be40980c"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "3869afe2b52718e71c6c759e9beee74e212138fcfa907f066952392e1205fea5"
+        }
+      ]
+    },
+    {
+      "id": "de65780062d0050e",
+      "location": {
+        "path": "/buildSrc/gradle/wrapper/gradle-wrapper.jar"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "application/java-archive",
+        "size": 59821
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "2aa1e772a1dc5a9b15d50443db4731b25180d58e"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "575098db54a998ff1c6770b352c3b16766c09848bee7555dab09afc34e8cf590"
+        }
+      ]
+    },
+    {
+      "id": "803860b7b0aaa5b6",
+      "location": {
+        "path": "/gradle/wrapper/gradle-wrapper.jar"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "application/zip",
+        "size": 43764
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "544d80232399265b2e8e152220cf016c5ce33c7d"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "id": "a49f4b9f326a6f8a3212d5e52ffef3f384f5f82b6b09b62935a40519d888f80c",
+    "name": "/home/hector/ciberseguridad_2026/data/repos/spring-session",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/home/hector/ciberseguridad_2026/data/repos/spring-session"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.42.4",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "conda-meta-cataloger",
+          "dart-pubspec-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "deb-archive-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dotnet-packages-lock-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "gguf-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "opam-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-lock-cataloger",
+          "php-interpreter-cataloger",
+          "php-pear-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "r-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "snap-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "terraform-lock-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "valkey-binary",
+          "nodejs-binary",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "qt-qtbase-lib",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "istio-binary",
+          "istio-binary",
+          "grafana-binary",
+          "grafana-binary",
+          "envoy-binary",
+          "mongodb-binary",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "exclude-project-references": true,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/home/hector/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false,
+          "use-packages-lib": true
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/hector/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.3",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.3.json"
+  }
+}

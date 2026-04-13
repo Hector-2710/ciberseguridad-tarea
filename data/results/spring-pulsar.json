@@ -1,0 +1,3852 @@
+{
+  "artifacts": [
+    {
+      "id": "cdbc0e131cb62bdf",
+      "name": "./.github/workflows/check-samples.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/check-samples.yml:.\\/.github\\/workflows\\/check-samples.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/check-samples.yml:.\\/.github\\/workflows\\/check_samples.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/check_samples.yml:.\\/.github\\/workflows\\/check-samples.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/check_samples.yml:.\\/.github\\/workflows\\/check_samples.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/check:.\\/.github\\/workflows\\/check-samples.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/check:.\\/.github\\/workflows\\/check_samples.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "./.github/workflows/check-samples.yml"
+      }
+    },
+    {
+      "id": "a33e1fa74739b19d",
+      "name": "./.github/workflows/trivy-scan.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci-pr.yml",
+          "accessPath": "/.github/workflows/ci-pr.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/trivy-scan.yml:.\\/.github\\/workflows\\/trivy-scan.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/trivy-scan.yml:.\\/.github\\/workflows\\/trivy_scan.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/trivy_scan.yml:.\\/.github\\/workflows\\/trivy-scan.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/trivy_scan.yml:.\\/.github\\/workflows\\/trivy_scan.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/trivy:.\\/.github\\/workflows\\/trivy-scan.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/trivy:.\\/.github\\/workflows\\/trivy_scan.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "./.github/workflows/trivy-scan.yml"
+      }
+    },
+    {
+      "id": "2ceb7dc80a9c1317",
+      "name": "./.github/workflows/trivy-scan.yml",
+      "version": "UNKNOWN",
+      "type": "github-action-workflow",
+      "foundBy": "github-action-workflow-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/trivy-scan.yml:.\\/.github\\/workflows\\/trivy-scan.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/trivy-scan.yml:.\\/.github\\/workflows\\/trivy_scan.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/trivy_scan.yml:.\\/.github\\/workflows\\/trivy-scan.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/trivy_scan.yml:.\\/.github\\/workflows\\/trivy_scan.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/trivy:.\\/.github\\/workflows\\/trivy-scan.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:.\\/.github\\/workflows\\/trivy:.\\/.github\\/workflows\\/trivy_scan.yml:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "./.github/workflows/trivy-scan.yml"
+      }
+    },
+    {
+      "id": "57e7c80c00337175",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/check-samples.yml",
+          "accessPath": "/.github/workflows/check-samples.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "af4ee43d48f0d6a5",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci-dispatcher-1.2.x.yml",
+          "accessPath": "/.github/workflows/ci-dispatcher-1.2.x.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "13a8594ed01d5269",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci-pr.yml",
+          "accessPath": "/.github/workflows/ci-pr.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "17e7537a5ad71851",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci-release-adhoc-2_0_2.yml",
+          "accessPath": "/.github/workflows/ci-release-adhoc-2_0_2.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "356953b5bb03d6ce",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "2bacbd50372cdc7f",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/deploy-docs-adhoc.yml",
+          "accessPath": "/.github/workflows/deploy-docs-adhoc.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "9125542734224576",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/deploy-docs-dispatcher-antora.yml",
+          "accessPath": "/.github/workflows/deploy-docs-dispatcher-antora.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "f479291cce191349",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/prepare-release.yml",
+          "accessPath": "/.github/workflows/prepare-release.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "6d5281c18c73867d",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/trivy-scan-dispatcher-1.2.x.yml",
+          "accessPath": "/.github/workflows/trivy-scan-dispatcher-1.2.x.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "b2d0025f4fb913f5",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/trivy-scan.yml",
+          "accessPath": "/.github/workflows/trivy-scan.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "b4d5fc4c25f62594",
+      "name": "actions/checkout",
+      "version": "v6",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/update-next-boot-version.yml",
+          "accessPath": "/.github/workflows/update-next-boot-version.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v6:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v6",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/checkout@v6"
+      }
+    },
+    {
+      "id": "52b21324bc900c4e",
+      "name": "actions/upload-artifact",
+      "version": "v7",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci-pr.yml",
+          "accessPath": "/.github/workflows/ci-pr.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/upload-artifact@v7",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/upload-artifact@v7"
+      }
+    },
+    {
+      "id": "1a04d6ded5f2e2e2",
+      "name": "actions/upload-artifact",
+      "version": "v7",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload-artifact:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload-artifact:actions\\/upload_artifact:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload-artifact:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload_artifact:actions\\/upload_artifact:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload:actions\\/upload-artifact:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:actions\\/upload:actions\\/upload_artifact:v7:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/actions/upload-artifact@v7",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "actions/upload-artifact@v7"
+      }
+    },
+    {
+      "id": "0d16ddb14c85a478",
+      "name": "aquasecurity/trivy-action",
+      "version": "master",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/trivy-scan.yml",
+          "accessPath": "/.github/workflows/trivy-scan.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:aquasecurity\\/trivy-action:aquasecurity\\/trivy-action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:aquasecurity\\/trivy-action:aquasecurity\\/trivy_action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:aquasecurity\\/trivy_action:aquasecurity\\/trivy-action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:aquasecurity\\/trivy_action:aquasecurity\\/trivy_action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:aquasecurity\\/trivy:aquasecurity\\/trivy-action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:aquasecurity\\/trivy:aquasecurity\\/trivy_action:master:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/aquasecurity/trivy-action@master",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "aquasecurity/trivy-action@master"
+      }
+    },
+    {
+      "id": "b4edb16696bbf26f",
+      "name": "github/codeql-action/upload-sarif",
+      "version": "v4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/trivy-scan.yml",
+          "accessPath": "/.github/workflows/trivy-scan.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql-action\\/upload-sarif:github\\/codeql-action\\/upload-sarif:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql-action\\/upload-sarif:github\\/codeql_action\\/upload_sarif:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql_action\\/upload_sarif:github\\/codeql-action\\/upload-sarif:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql_action\\/upload_sarif:github\\/codeql_action\\/upload_sarif:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql-action\\/upload:github\\/codeql-action\\/upload-sarif:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql-action\\/upload:github\\/codeql_action\\/upload_sarif:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql_action\\/upload:github\\/codeql-action\\/upload-sarif:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql_action\\/upload:github\\/codeql_action\\/upload_sarif:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql:github\\/codeql-action\\/upload-sarif:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:github\\/codeql:github\\/codeql_action\\/upload_sarif:v4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/github/codeql-action@v4#upload-sarif",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "github/codeql-action/upload-sarif@v4"
+      }
+    },
+    {
+      "id": "2e90de5a290134b7",
+      "name": "gradle-wrapper",
+      "version": "UNKNOWN",
+      "type": "java-archive",
+      "foundBy": "java-archive-cataloger",
+      "locations": [
+        {
+          "path": "/gradle/wrapper/gradle-wrapper.jar",
+          "accessPath": "/gradle/wrapper/gradle-wrapper.jar",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [
+        {
+          "value": "Apache-2.0",
+          "spdxExpression": "Apache-2.0",
+          "type": "concluded",
+          "urls": [],
+          "locations": [
+            {
+              "path": "/gradle/wrapper/gradle-wrapper.jar",
+              "accessPath": "/gradle/wrapper/gradle-wrapper.jar",
+              "annotations": {
+                "evidence": "primary"
+              }
+            }
+          ]
+        }
+      ],
+      "language": "java",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:org.gradle.wrapper.GradleWrapperMain:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.gradle.wrapper.GradleWrapperMain:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.gradle.wrapper.GradleWrapperMain:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:org.gradle.wrapper.GradleWrapperMain:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:GradleWrapperMain:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:GradleWrapperMain:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:GradleWrapperMain:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:GradleWrapperMain:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrapper:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:GradleWrapperMain:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle-wrapper:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle_wrapper:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrapper:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrapper:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:gradle-wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:gradle_wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:wrapper:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:gradle:wrapper:*:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:maven/org.gradle.wrapper.GradleWrapperMain/gradle-wrapper",
+      "metadataType": "java-archive",
+      "metadata": {
+        "virtualPath": "/gradle/wrapper/gradle-wrapper.jar",
+        "manifest": {
+          "main": [
+            {
+              "key": "Manifest-Version",
+              "value": "1.0"
+            },
+            {
+              "key": "Implementation-Title",
+              "value": "Gradle Wrapper"
+            },
+            {
+              "key": "Main-Class",
+              "value": "org.gradle.wrapper.GradleWrapperMain"
+            },
+            {
+              "key": "Enable-Native-Access",
+              "value": "ALL-UNNAMED"
+            }
+          ]
+        },
+        "digest": [
+          {
+            "algorithm": "sha1",
+            "value": "544d80232399265b2e8e152220cf016c5ce33c7d"
+          }
+        ]
+      }
+    },
+    {
+      "id": "380bab016cd39284",
+      "name": "spring-io/artifactory-deploy-action",
+      "version": "v0.0.4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci-release-adhoc-2_0_2.yml",
+          "accessPath": "/.github/workflows/ci-release-adhoc-2_0_2.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/artifactory-deploy-action:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/artifactory-deploy-action:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/artifactory_deploy_action:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/artifactory_deploy_action:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/artifactory-deploy:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/artifactory-deploy:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/artifactory_deploy:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/artifactory_deploy:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/artifactory:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/artifactory:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/artifactory:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/artifactory:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/artifactory-deploy-action@v0.0.4",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/artifactory-deploy-action@926d7f7cc810569395346bf3a4d91b380b3e355b",
+        "comment": "v0.0.4"
+      }
+    },
+    {
+      "id": "9282efcffd64b5c6",
+      "name": "spring-io/artifactory-deploy-action",
+      "version": "v0.0.4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/artifactory-deploy-action:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/artifactory-deploy-action:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/artifactory_deploy_action:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/artifactory_deploy_action:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/artifactory-deploy:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/artifactory-deploy:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/artifactory_deploy:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/artifactory_deploy:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/artifactory:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/artifactory:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/artifactory:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/artifactory:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/artifactory-deploy-action@v0.0.4",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/artifactory-deploy-action@926d7f7cc810569395346bf3a4d91b380b3e355b",
+        "comment": "v0.0.4"
+      }
+    },
+    {
+      "id": "66dd94d6d40090a0",
+      "name": "spring-io/artifactory-deploy-action",
+      "version": "v0.0.4",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/deploy-docs-adhoc.yml",
+          "accessPath": "/.github/workflows/deploy-docs-adhoc.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/artifactory-deploy-action:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/artifactory-deploy-action:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/artifactory_deploy_action:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/artifactory_deploy_action:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/artifactory-deploy:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/artifactory-deploy:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/artifactory_deploy:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/artifactory_deploy:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/artifactory:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/artifactory:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/artifactory:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/artifactory:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/artifactory-deploy-action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/artifactory_deploy_action:v0.0.4:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/artifactory-deploy-action@v0.0.4",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/artifactory-deploy-action@926d7f7cc810569395346bf3a4d91b380b3e355b",
+        "comment": "v0.0.4"
+      }
+    },
+    {
+      "id": "f06c879a0af67e6b",
+      "name": "spring-io/central-publish-action",
+      "version": "v0.4.0",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/central-publish-action:spring-io\\/central-publish-action:v0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/central-publish-action:spring_io\\/central_publish_action:v0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/central_publish_action:spring-io\\/central-publish-action:v0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/central_publish_action:spring_io\\/central_publish_action:v0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/central-publish:spring-io\\/central-publish-action:v0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/central-publish:spring_io\\/central_publish_action:v0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/central_publish:spring-io\\/central-publish-action:v0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/central_publish:spring_io\\/central_publish_action:v0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/central:spring-io\\/central-publish-action:v0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/central:spring_io\\/central_publish_action:v0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/central:spring-io\\/central-publish-action:v0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/central:spring_io\\/central_publish_action:v0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/central-publish-action:v0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/central_publish_action:v0.4.0:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/central-publish-action@v0.4.0",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/central-publish-action@5ea05c77127404d89c374ac4cd17b6ec6b0e7293",
+        "comment": "v0.4.0"
+      }
+    },
+    {
+      "id": "7f8f284ea294afcf",
+      "name": "spring-io/github-changelog-generator",
+      "version": "v0.0.14",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci-release-adhoc-2_0_2.yml",
+          "accessPath": "/.github/workflows/ci-release-adhoc-2_0_2.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/github-changelog-generator:spring-io\\/github-changelog-generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/github-changelog-generator:spring_io\\/github_changelog_generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/github_changelog_generator:spring-io\\/github-changelog-generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/github_changelog_generator:spring_io\\/github_changelog_generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/github-changelog:spring-io\\/github-changelog-generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/github-changelog:spring_io\\/github_changelog_generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/github_changelog:spring-io\\/github-changelog-generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/github_changelog:spring_io\\/github_changelog_generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/github:spring-io\\/github-changelog-generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/github:spring_io\\/github_changelog_generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/github:spring-io\\/github-changelog-generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/github:spring_io\\/github_changelog_generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/github-changelog-generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/github_changelog_generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/github-changelog-generator@v0.0.14",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/github-changelog-generator@v0.0.14"
+      }
+    },
+    {
+      "id": "c26ab1553461f78b",
+      "name": "spring-io/github-changelog-generator",
+      "version": "v0.0.14",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/github-changelog-generator:spring-io\\/github-changelog-generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/github-changelog-generator:spring_io\\/github_changelog_generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/github_changelog_generator:spring-io\\/github-changelog-generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/github_changelog_generator:spring_io\\/github_changelog_generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/github-changelog:spring-io\\/github-changelog-generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/github-changelog:spring_io\\/github_changelog_generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/github_changelog:spring-io\\/github-changelog-generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/github_changelog:spring_io\\/github_changelog_generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/github:spring-io\\/github-changelog-generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/github:spring_io\\/github_changelog_generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/github:spring-io\\/github-changelog-generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/github:spring_io\\/github_changelog_generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/github-changelog-generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/github_changelog_generator:v0.0.14:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/github-changelog-generator@v0.0.14",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/github-changelog-generator@v0.0.14"
+      }
+    },
+    {
+      "id": "7e16d29a9eea4c2a",
+      "name": "spring-io/spring-doc-actions/bust-cloudflare-antora-cache",
+      "version": "v0.0.22",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/bust-cloudflare:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/bust-cloudflare:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/bust_cloudflare:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/bust_cloudflare:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/bust:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/bust:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/bust:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/bust:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-doc-actions@v0.0.22#bust-cloudflare-antora-cache",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-doc-actions/bust-cloudflare-antora-cache@v0.0.22"
+      }
+    },
+    {
+      "id": "95f9526a73cf6729",
+      "name": "spring-io/spring-doc-actions/bust-cloudflare-antora-cache",
+      "version": "v0.0.22",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/deploy-docs-adhoc.yml",
+          "accessPath": "/.github/workflows/deploy-docs-adhoc.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/bust-cloudflare:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/bust-cloudflare:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/bust_cloudflare:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/bust_cloudflare:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/bust:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/bust:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/bust:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/bust:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-doc-actions\\/bust-cloudflare-antora-cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_doc_actions\\/bust_cloudflare_antora_cache:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-doc-actions@v0.0.22#bust-cloudflare-antora-cache",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-doc-actions/bust-cloudflare-antora-cache@v0.0.22"
+      }
+    },
+    {
+      "id": "345d84b8bcff1e67",
+      "name": "spring-io/spring-doc-actions/rsync-antora-reference",
+      "version": "v0.0.22",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/rsync-antora-reference:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/rsync-antora-reference:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/rsync_antora_reference:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/rsync_antora_reference:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/rsync-antora:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/rsync-antora:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/rsync_antora:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/rsync_antora:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/rsync:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/rsync:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/rsync:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/rsync:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-doc-actions@v0.0.22#rsync-antora-reference",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-doc-actions/rsync-antora-reference@v0.0.22"
+      }
+    },
+    {
+      "id": "aa64882c3db96dee",
+      "name": "spring-io/spring-doc-actions/rsync-antora-reference",
+      "version": "v0.0.22",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/deploy-docs-adhoc.yml",
+          "accessPath": "/.github/workflows/deploy-docs-adhoc.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/rsync-antora-reference:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/rsync-antora-reference:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/rsync_antora_reference:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/rsync_antora_reference:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/rsync-antora:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/rsync-antora:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/rsync_antora:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/rsync_antora:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/rsync:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc-actions\\/rsync:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/rsync:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc_actions\\/rsync:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-doc:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_doc:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-doc-actions\\/rsync-antora-reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_doc_actions\\/rsync_antora_reference:v0.0.22:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-doc-actions@v0.0.22#rsync-antora-reference",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-doc-actions/rsync-antora-reference@v0.0.22"
+      }
+    },
+    {
+      "id": "b1027146f121c703",
+      "name": "spring-io/spring-gradle-build-action",
+      "version": "v2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/check-samples.yml",
+          "accessPath": "/.github/workflows/check-samples.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-gradle-build-action@v2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-gradle-build-action@v2"
+      }
+    },
+    {
+      "id": "b05a12ab46e6cc98",
+      "name": "spring-io/spring-gradle-build-action",
+      "version": "v2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci-pr.yml",
+          "accessPath": "/.github/workflows/ci-pr.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-gradle-build-action@v2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-gradle-build-action@v2"
+      }
+    },
+    {
+      "id": "92c727ef4ac942c7",
+      "name": "spring-io/spring-gradle-build-action",
+      "version": "v2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci-release-adhoc-2_0_2.yml",
+          "accessPath": "/.github/workflows/ci-release-adhoc-2_0_2.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-gradle-build-action@v2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-gradle-build-action@v2"
+      }
+    },
+    {
+      "id": "7e1ad539efb6cd87",
+      "name": "spring-io/spring-gradle-build-action",
+      "version": "v2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-gradle-build-action@v2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-gradle-build-action@v2"
+      }
+    },
+    {
+      "id": "8445acc3d1c722bc",
+      "name": "spring-io/spring-gradle-build-action",
+      "version": "v2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/deploy-docs-adhoc.yml",
+          "accessPath": "/.github/workflows/deploy-docs-adhoc.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-gradle-build-action@v2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-gradle-build-action@v2"
+      }
+    },
+    {
+      "id": "d9a2d03387700a47",
+      "name": "spring-io/spring-gradle-build-action",
+      "version": "v2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/prepare-release.yml",
+          "accessPath": "/.github/workflows/prepare-release.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-gradle-build-action@v2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-gradle-build-action@v2"
+      }
+    },
+    {
+      "id": "1fee7df91a5a6e7e",
+      "name": "spring-io/spring-gradle-build-action",
+      "version": "v2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/trivy-scan.yml",
+          "accessPath": "/.github/workflows/trivy-scan.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-gradle-build-action@v2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-gradle-build-action@v2"
+      }
+    },
+    {
+      "id": "25b1de49f82c6f20",
+      "name": "spring-io/spring-gradle-build-action",
+      "version": "v2",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/update-next-boot-version.yml",
+          "accessPath": "/.github/workflows/update-next-boot-version.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build-action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build_action:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle-build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle_build:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_gradle:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-gradle-build-action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_gradle_build_action:v2:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-gradle-build-action@v2",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-gradle-build-action@v2"
+      }
+    },
+    {
+      "id": "635303b62caf102c",
+      "name": "spring-io/spring-release-actions/announce-on-gchat",
+      "version": "0.0.3",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci-release-adhoc-2_0_2.yml",
+          "accessPath": "/.github/workflows/ci-release-adhoc-2_0_2.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-release-actions\\/announce-on-gchat:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-release-actions\\/announce-on-gchat:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_release_actions\\/announce_on_gchat:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_release_actions\\/announce_on_gchat:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-release-actions\\/announce-on:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-release-actions\\/announce-on:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_release_actions\\/announce_on:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_release_actions\\/announce_on:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-release-actions\\/announce:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-release-actions\\/announce:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_release_actions\\/announce:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_release_actions\\/announce:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-release:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-release:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_release:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_release:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-release-actions@0.0.3#announce-on-gchat",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-release-actions/announce-on-gchat@0.0.3"
+      }
+    },
+    {
+      "id": "5588d29fc9244f83",
+      "name": "spring-io/spring-release-actions/announce-on-gchat",
+      "version": "0.0.3",
+      "type": "github-action",
+      "foundBy": "github-actions-usage-cataloger",
+      "locations": [
+        {
+          "path": "/.github/workflows/ci.yml",
+          "accessPath": "/.github/workflows/ci.yml",
+          "annotations": {
+            "evidence": "primary"
+          }
+        }
+      ],
+      "licenses": [],
+      "language": "",
+      "cpes": [
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-release-actions\\/announce-on-gchat:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-release-actions\\/announce-on-gchat:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_release_actions\\/announce_on_gchat:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_release_actions\\/announce_on_gchat:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-release-actions\\/announce-on:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-release-actions\\/announce-on:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_release_actions\\/announce_on:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_release_actions\\/announce_on:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-release-actions\\/announce:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-release-actions\\/announce:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_release_actions\\/announce:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_release_actions\\/announce:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-release:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring-release:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_release:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring_release:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring-io\\/spring:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring_io\\/spring:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring-io\\/spring-release-actions\\/announce-on-gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        },
+        {
+          "cpe": "cpe:2.3:a:spring:spring_io\\/spring_release_actions\\/announce_on_gchat:0.0.3:*:*:*:*:*:*:*",
+          "source": "syft-generated"
+        }
+      ],
+      "purl": "pkg:github/spring-io/spring-release-actions@0.0.3#announce-on-gchat",
+      "metadataType": "github-actions-use-statement",
+      "metadata": {
+        "value": "spring-io/spring-release-actions/announce-on-gchat@0.0.3"
+      }
+    }
+  ],
+  "artifactRelationships": [
+    {
+      "parent": "0d16ddb14c85a478",
+      "child": "663c3a64e331f88a",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "13a8594ed01d5269",
+      "child": "448483a7e4d4c8f2",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "17e7537a5ad71851",
+      "child": "9ec63e1b200cab70",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1a04d6ded5f2e2e2",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "1fee7df91a5a6e7e",
+      "child": "663c3a64e331f88a",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "25b1de49f82c6f20",
+      "child": "fb9507eab8129723",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2bacbd50372cdc7f",
+      "child": "d2cb67478fa3939e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2ceb7dc80a9c1317",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "2e90de5a290134b7",
+      "child": "803860b7b0aaa5b6",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "345d84b8bcff1e67",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "356953b5bb03d6ce",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "380bab016cd39284",
+      "child": "9ec63e1b200cab70",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "52b21324bc900c4e",
+      "child": "448483a7e4d4c8f2",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "5588d29fc9244f83",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "57e7c80c00337175",
+      "child": "4bb5ad7ec21e822e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "635303b62caf102c",
+      "child": "9ec63e1b200cab70",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "66dd94d6d40090a0",
+      "child": "d2cb67478fa3939e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "6d5281c18c73867d",
+      "child": "3b64b74c1b77a6e9",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "7e16d29a9eea4c2a",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "7e1ad539efb6cd87",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "7f8f284ea294afcf",
+      "child": "9ec63e1b200cab70",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "8445acc3d1c722bc",
+      "child": "d2cb67478fa3939e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9125542734224576",
+      "child": "8efe6acf132e49da",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "9282efcffd64b5c6",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "92c727ef4ac942c7",
+      "child": "9ec63e1b200cab70",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "95f9526a73cf6729",
+      "child": "d2cb67478fa3939e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "a33e1fa74739b19d",
+      "child": "448483a7e4d4c8f2",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "aa64882c3db96dee",
+      "child": "d2cb67478fa3939e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "0d16ddb14c85a478",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "13a8594ed01d5269",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "17e7537a5ad71851",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "1a04d6ded5f2e2e2",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "1fee7df91a5a6e7e",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "25b1de49f82c6f20",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "2bacbd50372cdc7f",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "2ceb7dc80a9c1317",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "2e90de5a290134b7",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "345d84b8bcff1e67",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "356953b5bb03d6ce",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "380bab016cd39284",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "52b21324bc900c4e",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "5588d29fc9244f83",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "57e7c80c00337175",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "635303b62caf102c",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "66dd94d6d40090a0",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "6d5281c18c73867d",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "7e16d29a9eea4c2a",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "7e1ad539efb6cd87",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "7f8f284ea294afcf",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "8445acc3d1c722bc",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "9125542734224576",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "9282efcffd64b5c6",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "92c727ef4ac942c7",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "95f9526a73cf6729",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "a33e1fa74739b19d",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "aa64882c3db96dee",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "af4ee43d48f0d6a5",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "b05a12ab46e6cc98",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "b1027146f121c703",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "b2d0025f4fb913f5",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "b4d5fc4c25f62594",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "b4edb16696bbf26f",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "c26ab1553461f78b",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "cdbc0e131cb62bdf",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "d9a2d03387700a47",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "f06c879a0af67e6b",
+      "type": "contains"
+    },
+    {
+      "parent": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+      "child": "f479291cce191349",
+      "type": "contains"
+    },
+    {
+      "parent": "af4ee43d48f0d6a5",
+      "child": "c6d5c6357cbab246",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b05a12ab46e6cc98",
+      "child": "448483a7e4d4c8f2",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b1027146f121c703",
+      "child": "4bb5ad7ec21e822e",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b2d0025f4fb913f5",
+      "child": "663c3a64e331f88a",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b4d5fc4c25f62594",
+      "child": "fb9507eab8129723",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "b4edb16696bbf26f",
+      "child": "663c3a64e331f88a",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "c26ab1553461f78b",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "cdbc0e131cb62bdf",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "d9a2d03387700a47",
+      "child": "e7e0616ffe7b015f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "f06c879a0af67e6b",
+      "child": "7561d461b00ff11d",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    },
+    {
+      "parent": "f479291cce191349",
+      "child": "e7e0616ffe7b015f",
+      "type": "evident-by",
+      "metadata": {
+        "kind": "primary"
+      }
+    }
+  ],
+  "files": [
+    {
+      "id": "4bb5ad7ec21e822e",
+      "location": {
+        "path": "/.github/workflows/check-samples.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 5426
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "8c27babcc4a6798cbe23fec3ec47342be9214901"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "1f86d5cfbd910c5e4257f14f3e0ec0dfe2579547bb5c804e9add83ea0e9c3104"
+        }
+      ]
+    },
+    {
+      "id": "c6d5c6357cbab246",
+      "location": {
+        "path": "/.github/workflows/ci-dispatcher-1.2.x.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 621
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "6b7d45f152711aab72ef0b6a92d45d31ae9d712c"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "331a2b7f3087e8d41003dc845ccc176dca0381fdaa2528130bd97136fcee9ce3"
+        }
+      ]
+    },
+    {
+      "id": "448483a7e4d4c8f2",
+      "location": {
+        "path": "/.github/workflows/ci-pr.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 3850
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "3c646a151f9506a0ce3062cb2d12737791e28864"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "16d1812882e810a0dcd1b37af4e640787da9d718e84408271f6c8eeb8b631a46"
+        }
+      ]
+    },
+    {
+      "id": "9ec63e1b200cab70",
+      "location": {
+        "path": "/.github/workflows/ci-release-adhoc-2_0_2.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 8775
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "ed78ceaea8c4b3fb96bcf6b5699513636b16bd86"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "375e7229bddb4f12ea3815cefeebb920f1b326a45e6ebf766907408e5c177e7d"
+        }
+      ]
+    },
+    {
+      "id": "7561d461b00ff11d",
+      "location": {
+        "path": "/.github/workflows/ci.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 13411
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "9c78eef9a55993fb26e6d77842fe07d7d0944ece"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "64a5f0d5cb88344f0872f7a6116a50e08f97f287d88f2fc9284d1398f8a4bd7d"
+        }
+      ]
+    },
+    {
+      "id": "d2cb67478fa3939e",
+      "location": {
+        "path": "/.github/workflows/deploy-docs-adhoc.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 3341
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "877cefbf606366dc6adde019ec8476f4f52738ba"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "dc2a63528139cefe0228c3c5d138f91e4e9f1ca5c56acc1add4b37e839eeb9aa"
+        }
+      ]
+    },
+    {
+      "id": "8efe6acf132e49da",
+      "location": {
+        "path": "/.github/workflows/deploy-docs-dispatcher-antora.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 819
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "6818fe968592a66226c71b588e1240974988ce8f"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "95f20917157f43d23ea3bb80d7e4f34336a1d5adf93dbae75ce8baea8d5fc626"
+        }
+      ]
+    },
+    {
+      "id": "e7e0616ffe7b015f",
+      "location": {
+        "path": "/.github/workflows/prepare-release.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 2023
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "00646463ea03b134da3dc34ce1a480088851c688"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "3317cd6940c470766fee25ae63436174a1e547decedea1c63225f78932f51147"
+        }
+      ]
+    },
+    {
+      "id": "3b64b74c1b77a6e9",
+      "location": {
+        "path": "/.github/workflows/trivy-scan-dispatcher-1.2.x.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 683
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "fa5eecee63645caf7c4fa79ca2d04ee7b7bdc4ef"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "070670c1dab6bb6bf07404b66fc5af1785c9e057869f69043fadb824eac42dfc"
+        }
+      ]
+    },
+    {
+      "id": "663c3a64e331f88a",
+      "location": {
+        "path": "/.github/workflows/trivy-scan.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 2028
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "ad0e1c8e616d78cd0fccf9810b6ff22a83d5b1de"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "548fc332367f2cddb031fd353bdf10a51a7d1bb3102676838287011a205535e1"
+        }
+      ]
+    },
+    {
+      "id": "fb9507eab8129723",
+      "location": {
+        "path": "/.github/workflows/update-next-boot-version.yml"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "text/plain",
+        "size": 2503
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "8dd493ab8ca76799b5f1896948e1d43aa867d065"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "8c77a540e3ac0bf45cac21d70e1df74992c4d22a071ee9aa1aef771d4c251554"
+        }
+      ]
+    },
+    {
+      "id": "803860b7b0aaa5b6",
+      "location": {
+        "path": "/gradle/wrapper/gradle-wrapper.jar"
+      },
+      "metadata": {
+        "mode": 664,
+        "type": "RegularFile",
+        "userID": 1000,
+        "groupID": 1000,
+        "mimeType": "application/zip",
+        "size": 43764
+      },
+      "digests": [
+        {
+          "algorithm": "sha1",
+          "value": "544d80232399265b2e8e152220cf016c5ce33c7d"
+        },
+        {
+          "algorithm": "sha256",
+          "value": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "id": "ad5e1b62d3d08d75b405e758096acc169a548314d209ec364ff82ed2ac09a31d",
+    "name": "/home/hector/ciberseguridad_2026/data/repos/spring-pulsar",
+    "version": "",
+    "type": "directory",
+    "metadata": {
+      "path": "/home/hector/ciberseguridad_2026/data/repos/spring-pulsar"
+    }
+  },
+  "distro": {},
+  "descriptor": {
+    "name": "syft",
+    "version": "1.42.4",
+    "configuration": {
+      "catalogers": {
+        "requested": {
+          "default": [
+            "directory",
+            "file"
+          ]
+        },
+        "used": [
+          "alpm-db-cataloger",
+          "apk-db-cataloger",
+          "binary-classifier-cataloger",
+          "cargo-auditable-binary-cataloger",
+          "cocoapods-cataloger",
+          "conan-cataloger",
+          "conda-meta-cataloger",
+          "dart-pubspec-cataloger",
+          "dart-pubspec-lock-cataloger",
+          "deb-archive-cataloger",
+          "dotnet-deps-binary-cataloger",
+          "dotnet-packages-lock-cataloger",
+          "dpkg-db-cataloger",
+          "elf-binary-package-cataloger",
+          "elixir-mix-lock-cataloger",
+          "erlang-otp-application-cataloger",
+          "erlang-rebar-lock-cataloger",
+          "file-content-cataloger",
+          "file-digest-cataloger",
+          "file-executable-cataloger",
+          "file-metadata-cataloger",
+          "gguf-cataloger",
+          "github-action-workflow-usage-cataloger",
+          "github-actions-usage-cataloger",
+          "go-module-binary-cataloger",
+          "go-module-file-cataloger",
+          "graalvm-native-image-cataloger",
+          "haskell-cataloger",
+          "homebrew-cataloger",
+          "java-archive-cataloger",
+          "java-gradle-lockfile-cataloger",
+          "java-jvm-cataloger",
+          "java-pom-cataloger",
+          "javascript-lock-cataloger",
+          "linux-kernel-cataloger",
+          "lua-rock-cataloger",
+          "nix-cataloger",
+          "opam-cataloger",
+          "pe-binary-package-cataloger",
+          "php-composer-lock-cataloger",
+          "php-interpreter-cataloger",
+          "php-pear-serialized-cataloger",
+          "portage-cataloger",
+          "python-installed-package-cataloger",
+          "python-package-cataloger",
+          "r-package-cataloger",
+          "rpm-archive-cataloger",
+          "rpm-db-cataloger",
+          "ruby-gemfile-cataloger",
+          "ruby-gemspec-cataloger",
+          "rust-cargo-lock-cataloger",
+          "snap-cataloger",
+          "swift-package-manager-cataloger",
+          "swipl-pack-cataloger",
+          "terraform-lock-cataloger",
+          "wordpress-plugins-cataloger"
+        ]
+      },
+      "data-generation": {
+        "generate-cpes": true
+      },
+      "files": {
+        "content": {
+          "globs": null,
+          "skip-files-above-size": 0
+        },
+        "hashers": [
+          "sha-1",
+          "sha-256"
+        ],
+        "selection": "owned-by-package"
+      },
+      "licenses": {
+        "coverage": 75,
+        "include-content": "none"
+      },
+      "packages": {
+        "binary": [
+          "python-binary",
+          "python-binary-lib",
+          "pypy-binary-lib",
+          "go-binary",
+          "julia-binary",
+          "helm",
+          "redis-binary",
+          "valkey-binary",
+          "nodejs-binary",
+          "busybox-binary",
+          "util-linux-binary",
+          "haproxy-binary",
+          "perl-binary",
+          "php-composer-binary",
+          "httpd-binary",
+          "memcached-binary",
+          "traefik-binary",
+          "arangodb-binary",
+          "postgresql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "mysql-binary",
+          "xtrabackup-binary",
+          "mariadb-binary",
+          "rust-standard-library-linux",
+          "rust-standard-library-macos",
+          "ruby-binary",
+          "erlang-binary",
+          "erlang-alpine-binary",
+          "erlang-library",
+          "swipl-binary",
+          "dart-binary",
+          "haskell-ghc-binary",
+          "haskell-cabal-binary",
+          "haskell-stack-binary",
+          "consul-binary",
+          "hashicorp-vault-binary",
+          "nginx-binary",
+          "bash-binary",
+          "openssl-binary",
+          "qt-qtbase-lib",
+          "gcc-binary",
+          "fluent-bit-binary",
+          "wordpress-cli-binary",
+          "curl-binary",
+          "lighttpd-binary",
+          "proftpd-binary",
+          "zstd-binary",
+          "xz-binary",
+          "gzip-binary",
+          "sqlcipher-binary",
+          "jq-binary",
+          "chrome-binary",
+          "ffmpeg-binary",
+          "ffmpeg-library",
+          "ffmpeg-library",
+          "elixir-binary",
+          "elixir-library",
+          "istio-binary",
+          "istio-binary",
+          "grafana-binary",
+          "grafana-binary",
+          "envoy-binary",
+          "mongodb-binary",
+          "java-binary",
+          "java-jdb-binary"
+        ],
+        "dotnet": {
+          "dep-packages-must-claim-dll": true,
+          "dep-packages-must-have-dll": false,
+          "exclude-project-references": true,
+          "propagate-dll-claims-to-parents": true,
+          "relax-dll-claims-when-bundling-detected": true
+        },
+        "golang": {
+          "local-mod-cache-dir": "/home/hector/go/pkg/mod",
+          "local-vendor-dir": "",
+          "main-module-version": {
+            "from-build-settings": true,
+            "from-contents": false,
+            "from-ld-flags": true
+          },
+          "proxies": [
+            "https://proxy.golang.org",
+            "direct"
+          ],
+          "search-local-mod-cache-licenses": false,
+          "search-local-vendor-licenses": false,
+          "search-remote-licenses": false,
+          "use-packages-lib": true
+        },
+        "java-archive": {
+          "include-indexed-archives": true,
+          "include-unindexed-archives": false,
+          "maven-base-url": "https://repo1.maven.org/maven2",
+          "maven-localrepository-dir": "/home/hector/.m2/repository",
+          "max-parent-recursive-depth": 0,
+          "resolve-transitive-dependencies": false,
+          "use-maven-localrepository": false,
+          "use-network": false
+        },
+        "javascript": {
+          "include-dev-dependencies": false,
+          "npm-base-url": "https://registry.npmjs.org",
+          "search-remote-licenses": false
+        },
+        "linux-kernel": {
+          "catalog-modules": true
+        },
+        "nix": {
+          "capture-owned-files": false
+        },
+        "python": {
+          "guess-unpinned-requirements": false,
+          "pypi-base-url": "https://pypi.org/pypi",
+          "search-remote-licenses": false
+        }
+      },
+      "relationships": {
+        "exclude-binary-packages-with-file-ownership-overlap": true,
+        "package-file-ownership": true,
+        "package-file-ownership-overlap": true
+      },
+      "search": {
+        "scope": "squashed"
+      }
+    }
+  },
+  "schema": {
+    "version": "16.1.3",
+    "url": "https://raw.githubusercontent.com/anchore/syft/main/schema/json/schema-16.1.3.json"
+  }
+}
